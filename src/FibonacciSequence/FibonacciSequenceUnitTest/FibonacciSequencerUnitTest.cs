@@ -16,6 +16,7 @@ namespace FibonacciSequenceUnitTest
                 var expected = numbers.Span[i++];
                 Assert.Equal(expected, actual);
             }
+            Assert.Equal(numbers.Length, i);
         }
     }
 }
