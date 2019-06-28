@@ -1,0 +1,3985 @@
+[
+  {
+    "Id": 1,
+    "AfterShip": 254,
+    "Name": "睦月",
+    "Type": 2,
+    "Yomi": "むつき"
+  },
+  {
+    "Id": 2,
+    "AfterShip": 255,
+    "Name": "如月",
+    "Type": 2,
+    "Yomi": "きさらぎ"
+  },
+  {
+    "Id": 6,
+    "AfterShip": 258,
+    "Name": "長月",
+    "Type": 2,
+    "Yomi": "ながつき"
+  },
+  {
+    "Id": 7,
+    "AfterShip": 260,
+    "Name": "三日月",
+    "Type": 2,
+    "Yomi": "みかづき"
+  },
+  {
+    "Id": 9,
+    "AfterShip": 201,
+    "Name": "吹雪",
+    "Type": 2,
+    "Yomi": "ふぶき"
+  },
+  {
+    "Id": 10,
+    "AfterShip": 202,
+    "Name": "白雪",
+    "Type": 2,
+    "Yomi": "しらゆき"
+  },
+  {
+    "Id": 11,
+    "AfterShip": 204,
+    "Name": "深雪",
+    "Type": 2,
+    "Yomi": "みゆき"
+  },
+  {
+    "Id": 12,
+    "AfterShip": 206,
+    "Name": "磯波",
+    "Type": 2,
+    "Yomi": "いそなみ"
+  },
+  {
+    "Id": 13,
+    "AfterShip": 207,
+    "Name": "綾波",
+    "Type": 2,
+    "Yomi": "あやなみ"
+  },
+  {
+    "Id": 14,
+    "AfterShip": 208,
+    "Name": "敷波",
+    "Type": 2,
+    "Yomi": "しきなみ"
+  },
+  {
+    "Id": 15,
+    "AfterShip": 231,
+    "Name": "曙",
+    "Type": 2,
+    "Yomi": "あけぼの"
+  },
+  {
+    "Id": 16,
+    "AfterShip": 233,
+    "Name": "潮",
+    "Type": 2,
+    "Yomi": "うしお"
+  },
+  {
+    "Id": 17,
+    "AfterShip": 225,
+    "Name": "陽炎",
+    "Type": 2,
+    "Yomi": "かげろう"
+  },
+  {
+    "Id": 18,
+    "AfterShip": 226,
+    "Name": "不知火",
+    "Type": 2,
+    "Yomi": "しらぬい"
+  },
+  {
+    "Id": 19,
+    "AfterShip": 227,
+    "Name": "黒潮",
+    "Type": 2,
+    "Yomi": "くろしお"
+  },
+  {
+    "Id": 20,
+    "AfterShip": 228,
+    "Name": "雪風",
+    "Type": 2,
+    "Yomi": "ゆきかぜ"
+  },
+  {
+    "Id": 21,
+    "AfterShip": 218,
+    "Name": "長良",
+    "Type": 3,
+    "Yomi": "ながら"
+  },
+  {
+    "Id": 22,
+    "AfterShip": 219,
+    "Name": "五十鈴",
+    "Type": 3,
+    "Yomi": "いすず"
+  },
+  {
+    "Id": 23,
+    "AfterShip": 220,
+    "Name": "由良",
+    "Type": 3,
+    "Yomi": "ゆら"
+  },
+  {
+    "Id": 24,
+    "AfterShip": 57,
+    "Name": "大井",
+    "Type": 3,
+    "Yomi": "おおい"
+  },
+  {
+    "Id": 25,
+    "AfterShip": 58,
+    "Name": "北上",
+    "Type": 3,
+    "Yomi": "きたかみ"
+  },
+  {
+    "Id": 26,
+    "AfterShip": 286,
+    "Name": "扶桑",
+    "Type": 9,
+    "Yomi": "ふそう"
+  },
+  {
+    "Id": 27,
+    "AfterShip": 287,
+    "Name": "山城",
+    "Type": 9,
+    "Yomi": "やましろ"
+  },
+  {
+    "Id": 28,
+    "AfterShip": 256,
+    "Name": "皐月",
+    "Type": 2,
+    "Yomi": "さつき"
+  },
+  {
+    "Id": 29,
+    "AfterShip": 257,
+    "Name": "文月",
+    "Type": 2,
+    "Yomi": "ふみづき"
+  },
+  {
+    "Id": 30,
+    "AfterShip": 259,
+    "Name": "菊月",
+    "Type": 2,
+    "Yomi": "きくづき"
+  },
+  {
+    "Id": 31,
+    "AfterShip": 261,
+    "Name": "望月",
+    "Type": 2,
+    "Yomi": "もちづき"
+  },
+  {
+    "Id": 32,
+    "AfterShip": 203,
+    "Name": "初雪",
+    "Type": 2,
+    "Yomi": "はつゆき"
+  },
+  {
+    "Id": 33,
+    "AfterShip": 205,
+    "Name": "叢雲",
+    "Type": 2,
+    "Yomi": "むらくも"
+  },
+  {
+    "Id": 34,
+    "AfterShip": 234,
+    "Name": "暁",
+    "Type": 2,
+    "Yomi": "あかつき"
+  },
+  {
+    "Id": 35,
+    "AfterShip": 235,
+    "Name": "響",
+    "Type": 2,
+    "Yomi": "ひびき"
+  },
+  {
+    "Id": 36,
+    "AfterShip": 236,
+    "Name": "雷",
+    "Type": 2,
+    "Yomi": "いかづち"
+  },
+  {
+    "Id": 37,
+    "AfterShip": 237,
+    "Name": "電",
+    "Type": 2,
+    "Yomi": "いなづま"
+  },
+  {
+    "Id": 38,
+    "AfterShip": 238,
+    "Name": "初春",
+    "Type": 2,
+    "Yomi": "はつはる"
+  },
+  {
+    "Id": 39,
+    "AfterShip": 239,
+    "Name": "子日",
+    "Type": 2,
+    "Yomi": "ねのひ"
+  },
+  {
+    "Id": 40,
+    "AfterShip": 240,
+    "Name": "若葉",
+    "Type": 2,
+    "Yomi": "わかば"
+  },
+  {
+    "Id": 41,
+    "AfterShip": 241,
+    "Name": "初霜",
+    "Type": 2,
+    "Yomi": "はつしも"
+  },
+  {
+    "Id": 42,
+    "AfterShip": 242,
+    "Name": "白露",
+    "Type": 2,
+    "Yomi": "しらつゆ"
+  },
+  {
+    "Id": 43,
+    "AfterShip": 243,
+    "Name": "時雨",
+    "Type": 2,
+    "Yomi": "しぐれ"
+  },
+  {
+    "Id": 44,
+    "AfterShip": 244,
+    "Name": "村雨",
+    "Type": 2,
+    "Yomi": "むらさめ"
+  },
+  {
+    "Id": 45,
+    "AfterShip": 245,
+    "Name": "夕立",
+    "Type": 2,
+    "Yomi": "ゆうだち"
+  },
+  {
+    "Id": 46,
+    "AfterShip": 246,
+    "Name": "五月雨",
+    "Type": 2,
+    "Yomi": "さみだれ"
+  },
+  {
+    "Id": 47,
+    "AfterShip": 247,
+    "Name": "涼風",
+    "Type": 2,
+    "Yomi": "すずかぜ"
+  },
+  {
+    "Id": 48,
+    "AfterShip": 252,
+    "Name": "霰",
+    "Type": 2,
+    "Yomi": "あられ"
+  },
+  {
+    "Id": 49,
+    "AfterShip": 253,
+    "Name": "霞",
+    "Type": 2,
+    "Yomi": "かすみ"
+  },
+  {
+    "Id": 50,
+    "AfterShip": 229,
+    "Name": "島風",
+    "Type": 2,
+    "Yomi": "しまかぜ"
+  },
+  {
+    "Id": 51,
+    "AfterShip": 213,
+    "Name": "天龍",
+    "Type": 3,
+    "Yomi": "てんりゅう"
+  },
+  {
+    "Id": 52,
+    "AfterShip": 214,
+    "Name": "龍田",
+    "Type": 3,
+    "Yomi": "たつた"
+  },
+  {
+    "Id": 53,
+    "AfterShip": 221,
+    "Name": "名取",
+    "Type": 3,
+    "Yomi": "なとり"
+  },
+  {
+    "Id": 54,
+    "AfterShip": 222,
+    "Name": "川内",
+    "Type": 3,
+    "Yomi": "せんだい"
+  },
+  {
+    "Id": 55,
+    "AfterShip": 223,
+    "Name": "神通",
+    "Type": 3,
+    "Yomi": "じんつう"
+  },
+  {
+    "Id": 56,
+    "AfterShip": 224,
+    "Name": "那珂",
+    "Type": 3,
+    "Yomi": "なか"
+  },
+  {
+    "Id": 57,
+    "AfterShip": 118,
+    "Name": "大井改",
+    "Type": 4,
+    "Yomi": "おおい"
+  },
+  {
+    "Id": 58,
+    "AfterShip": 119,
+    "Name": "北上改",
+    "Type": 4,
+    "Yomi": "きたかみ"
+  },
+  {
+    "Id": 59,
+    "AfterShip": 262,
+    "Name": "古鷹",
+    "Type": 5,
+    "Yomi": "ふるたか"
+  },
+  {
+    "Id": 60,
+    "AfterShip": 263,
+    "Name": "加古",
+    "Type": 5,
+    "Yomi": "かこ"
+  },
+  {
+    "Id": 61,
+    "AfterShip": 264,
+    "Name": "青葉",
+    "Type": 5,
+    "Yomi": "あおば"
+  },
+  {
+    "Id": 62,
+    "AfterShip": 265,
+    "Name": "妙高",
+    "Type": 5,
+    "Yomi": "みょうこう"
+  },
+  {
+    "Id": 63,
+    "AfterShip": 266,
+    "Name": "那智",
+    "Type": 5,
+    "Yomi": "なち"
+  },
+  {
+    "Id": 64,
+    "AfterShip": 267,
+    "Name": "足柄",
+    "Type": 5,
+    "Yomi": "あしがら"
+  },
+  {
+    "Id": 65,
+    "AfterShip": 268,
+    "Name": "羽黒",
+    "Type": 5,
+    "Yomi": "はぐろ"
+  },
+  {
+    "Id": 66,
+    "AfterShip": 269,
+    "Name": "高雄",
+    "Type": 5,
+    "Yomi": "たかお"
+  },
+  {
+    "Id": 67,
+    "AfterShip": 270,
+    "Name": "愛宕",
+    "Type": 5,
+    "Yomi": "あたご"
+  },
+  {
+    "Id": 68,
+    "AfterShip": 271,
+    "Name": "摩耶",
+    "Type": 5,
+    "Yomi": "まや"
+  },
+  {
+    "Id": 69,
+    "AfterShip": 272,
+    "Name": "鳥海",
+    "Type": 5,
+    "Yomi": "ちょうかい"
+  },
+  {
+    "Id": 70,
+    "AfterShip": 73,
+    "Name": "最上",
+    "Type": 5,
+    "Yomi": "もがみ"
+  },
+  {
+    "Id": 71,
+    "AfterShip": 273,
+    "Name": "利根",
+    "Type": 5,
+    "Yomi": "とね"
+  },
+  {
+    "Id": 72,
+    "AfterShip": 274,
+    "Name": "筑摩",
+    "Type": 5,
+    "Yomi": "ちくま"
+  },
+  {
+    "Id": 73,
+    "AfterShip": 0,
+    "Name": "最上改",
+    "Type": 6,
+    "Yomi": "もがみ"
+  },
+  {
+    "Id": 74,
+    "AfterShip": 282,
+    "Name": "祥鳳",
+    "Type": 7,
+    "Yomi": "しょうほう"
+  },
+  {
+    "Id": 75,
+    "AfterShip": 283,
+    "Name": "飛鷹",
+    "Type": 7,
+    "Yomi": "ひよう"
+  },
+  {
+    "Id": 76,
+    "AfterShip": 281,
+    "Name": "龍驤",
+    "Type": 7,
+    "Yomi": "りゅうじょう"
+  },
+  {
+    "Id": 77,
+    "AfterShip": 82,
+    "Name": "伊勢",
+    "Type": 9,
+    "Yomi": "いせ"
+  },
+  {
+    "Id": 78,
+    "AfterShip": 209,
+    "Name": "金剛",
+    "Type": 8,
+    "Yomi": "こんごう"
+  },
+  {
+    "Id": 79,
+    "AfterShip": 211,
+    "Name": "榛名",
+    "Type": 8,
+    "Yomi": "はるな"
+  },
+  {
+    "Id": 80,
+    "AfterShip": 275,
+    "Name": "長門",
+    "Type": 9,
+    "Yomi": "ながと"
+  },
+  {
+    "Id": 81,
+    "AfterShip": 276,
+    "Name": "陸奥",
+    "Type": 9,
+    "Yomi": "むつ"
+  },
+  {
+    "Id": 82,
+    "AfterShip": 553,
+    "Name": "伊勢改",
+    "Type": 10,
+    "Yomi": "いせ"
+  },
+  {
+    "Id": 83,
+    "AfterShip": 277,
+    "Name": "赤城",
+    "Type": 11,
+    "Yomi": "あかぎ"
+  },
+  {
+    "Id": 84,
+    "AfterShip": 278,
+    "Name": "加賀",
+    "Type": 11,
+    "Yomi": "かが"
+  },
+  {
+    "Id": 85,
+    "AfterShip": 212,
+    "Name": "霧島",
+    "Type": 8,
+    "Yomi": "きりしま"
+  },
+  {
+    "Id": 86,
+    "AfterShip": 210,
+    "Name": "比叡",
+    "Type": 8,
+    "Yomi": "ひえい"
+  },
+  {
+    "Id": 87,
+    "AfterShip": 88,
+    "Name": "日向",
+    "Type": 9,
+    "Yomi": "ひゅうが"
+  },
+  {
+    "Id": 88,
+    "AfterShip": 554,
+    "Name": "日向改",
+    "Type": 10,
+    "Yomi": "ひゅうが"
+  },
+  {
+    "Id": 89,
+    "AfterShip": 285,
+    "Name": "鳳翔",
+    "Type": 7,
+    "Yomi": "ほうしょう"
+  },
+  {
+    "Id": 90,
+    "AfterShip": 279,
+    "Name": "蒼龍",
+    "Type": 11,
+    "Yomi": "そうりゅう"
+  },
+  {
+    "Id": 91,
+    "AfterShip": 280,
+    "Name": "飛龍",
+    "Type": 11,
+    "Yomi": "ひりゅう"
+  },
+  {
+    "Id": 92,
+    "AfterShip": 284,
+    "Name": "隼鷹",
+    "Type": 7,
+    "Yomi": "じゅんよう"
+  },
+  {
+    "Id": 93,
+    "AfterShip": 230,
+    "Name": "朧",
+    "Type": 2,
+    "Yomi": "おぼろ"
+  },
+  {
+    "Id": 94,
+    "AfterShip": 232,
+    "Name": "漣",
+    "Type": 2,
+    "Yomi": "さざなみ"
+  },
+  {
+    "Id": 95,
+    "AfterShip": 248,
+    "Name": "朝潮",
+    "Type": 2,
+    "Yomi": "あさしお"
+  },
+  {
+    "Id": 96,
+    "AfterShip": 249,
+    "Name": "大潮",
+    "Type": 2,
+    "Yomi": "おおしお"
+  },
+  {
+    "Id": 97,
+    "AfterShip": 250,
+    "Name": "満潮",
+    "Type": 2,
+    "Yomi": "みちしお"
+  },
+  {
+    "Id": 98,
+    "AfterShip": 251,
+    "Name": "荒潮",
+    "Type": 2,
+    "Yomi": "あらしお"
+  },
+  {
+    "Id": 99,
+    "AfterShip": 215,
+    "Name": "球磨",
+    "Type": 3,
+    "Yomi": "くま"
+  },
+  {
+    "Id": 100,
+    "AfterShip": 216,
+    "Name": "多摩",
+    "Type": 3,
+    "Yomi": "たま"
+  },
+  {
+    "Id": 101,
+    "AfterShip": 217,
+    "Name": "木曾",
+    "Type": 3,
+    "Yomi": "きそ"
+  },
+  {
+    "Id": 102,
+    "AfterShip": 104,
+    "Name": "千歳",
+    "Type": 16,
+    "Yomi": "ちとせ"
+  },
+  {
+    "Id": 103,
+    "AfterShip": 105,
+    "Name": "千代田",
+    "Type": 16,
+    "Yomi": "ちよだ"
+  },
+  {
+    "Id": 104,
+    "AfterShip": 106,
+    "Name": "千歳改",
+    "Type": 16,
+    "Yomi": "ちとせ"
+  },
+  {
+    "Id": 105,
+    "AfterShip": 107,
+    "Name": "千代田改",
+    "Type": 16,
+    "Yomi": "ちよだ"
+  },
+  {
+    "Id": 106,
+    "AfterShip": 108,
+    "Name": "千歳甲",
+    "Type": 16,
+    "Yomi": "ちとせ"
+  },
+  {
+    "Id": 107,
+    "AfterShip": 109,
+    "Name": "千代田甲",
+    "Type": 16,
+    "Yomi": "ちよだ"
+  },
+  {
+    "Id": 108,
+    "AfterShip": 291,
+    "Name": "千歳航",
+    "Type": 7,
+    "Yomi": "ちとせ"
+  },
+  {
+    "Id": 109,
+    "AfterShip": 292,
+    "Name": "千代田航",
+    "Type": 7,
+    "Yomi": "ちよだ"
+  },
+  {
+    "Id": 110,
+    "AfterShip": 288,
+    "Name": "翔鶴",
+    "Type": 11,
+    "Yomi": "しょうかく"
+  },
+  {
+    "Id": 111,
+    "AfterShip": 112,
+    "Name": "瑞鶴",
+    "Type": 11,
+    "Yomi": "ずいかく"
+  },
+  {
+    "Id": 112,
+    "AfterShip": 462,
+    "Name": "瑞鶴改",
+    "Type": 11,
+    "Yomi": "ずいかく"
+  },
+  {
+    "Id": 113,
+    "AfterShip": 289,
+    "Name": "鬼怒",
+    "Type": 3,
+    "Yomi": "きぬ"
+  },
+  {
+    "Id": 114,
+    "AfterShip": 290,
+    "Name": "阿武隈",
+    "Type": 3,
+    "Yomi": "あぶくま"
+  },
+  {
+    "Id": 115,
+    "AfterShip": 293,
+    "Name": "夕張",
+    "Type": 3,
+    "Yomi": "ゆうばり"
+  },
+  {
+    "Id": 116,
+    "AfterShip": 117,
+    "Name": "瑞鳳",
+    "Type": 7,
+    "Yomi": "ずいほう"
+  },
+  {
+    "Id": 117,
+    "AfterShip": 555,
+    "Name": "瑞鳳改",
+    "Type": 7,
+    "Yomi": "ずいほう"
+  },
+  {
+    "Id": 118,
+    "AfterShip": 0,
+    "Name": "大井改二",
+    "Type": 4,
+    "Yomi": "おおい"
+  },
+  {
+    "Id": 119,
+    "AfterShip": 0,
+    "Name": "北上改二",
+    "Type": 4,
+    "Yomi": "きたかみ"
+  },
+  {
+    "Id": 120,
+    "AfterShip": 121,
+    "Name": "三隈",
+    "Type": 5,
+    "Yomi": "みくま"
+  },
+  {
+    "Id": 121,
+    "AfterShip": 0,
+    "Name": "三隈改",
+    "Type": 6,
+    "Yomi": "みくま"
+  },
+  {
+    "Id": 122,
+    "AfterShip": 294,
+    "Name": "舞風",
+    "Type": 2,
+    "Yomi": "まいかぜ"
+  },
+  {
+    "Id": 123,
+    "AfterShip": 295,
+    "Name": "衣笠",
+    "Type": 5,
+    "Yomi": "きぬがさ"
+  },
+  {
+    "Id": 124,
+    "AfterShip": 129,
+    "Name": "鈴谷",
+    "Type": 5,
+    "Yomi": "すずや"
+  },
+  {
+    "Id": 125,
+    "AfterShip": 130,
+    "Name": "熊野",
+    "Type": 5,
+    "Yomi": "くまの"
+  },
+  {
+    "Id": 126,
+    "AfterShip": 398,
+    "Name": "伊168",
+    "Type": 13,
+    "Yomi": "い168"
+  },
+  {
+    "Id": 127,
+    "AfterShip": 399,
+    "Name": "伊58",
+    "Type": 13,
+    "Yomi": "い58"
+  },
+  {
+    "Id": 128,
+    "AfterShip": 400,
+    "Name": "伊8",
+    "Type": 13,
+    "Yomi": "い8"
+  },
+  {
+    "Id": 129,
+    "AfterShip": 503,
+    "Name": "鈴谷改",
+    "Type": 6,
+    "Yomi": "すずや"
+  },
+  {
+    "Id": 130,
+    "AfterShip": 504,
+    "Name": "熊野改",
+    "Type": 6,
+    "Yomi": "くまの"
+  },
+  {
+    "Id": 131,
+    "AfterShip": 136,
+    "Name": "大和",
+    "Type": 9,
+    "Yomi": "やまと"
+  },
+  {
+    "Id": 132,
+    "AfterShip": 301,
+    "Name": "秋雲",
+    "Type": 2,
+    "Yomi": "あきぐも"
+  },
+  {
+    "Id": 133,
+    "AfterShip": 302,
+    "Name": "夕雲",
+    "Type": 2,
+    "Yomi": "ゆうぐも"
+  },
+  {
+    "Id": 134,
+    "AfterShip": 303,
+    "Name": "巻雲",
+    "Type": 2,
+    "Yomi": "まきぐも"
+  },
+  {
+    "Id": 135,
+    "AfterShip": 304,
+    "Name": "長波",
+    "Type": 2,
+    "Yomi": "ながなみ"
+  },
+  {
+    "Id": 136,
+    "AfterShip": 0,
+    "Name": "大和改",
+    "Type": 9,
+    "Yomi": "やまと"
+  },
+  {
+    "Id": 137,
+    "AfterShip": 305,
+    "Name": "阿賀野",
+    "Type": 3,
+    "Yomi": "あがの"
+  },
+  {
+    "Id": 138,
+    "AfterShip": 306,
+    "Name": "能代",
+    "Type": 3,
+    "Yomi": "のしろ"
+  },
+  {
+    "Id": 139,
+    "AfterShip": 307,
+    "Name": "矢矧",
+    "Type": 3,
+    "Yomi": "やはぎ"
+  },
+  {
+    "Id": 140,
+    "AfterShip": 314,
+    "Name": "酒匂",
+    "Type": 3,
+    "Yomi": "さかわ"
+  },
+  {
+    "Id": 141,
+    "AfterShip": 0,
+    "Name": "五十鈴改二",
+    "Type": 3,
+    "Yomi": "いすず"
+  },
+  {
+    "Id": 142,
+    "AfterShip": 0,
+    "Name": "衣笠改二",
+    "Type": 5,
+    "Yomi": "きぬがさ"
+  },
+  {
+    "Id": 143,
+    "AfterShip": 148,
+    "Name": "武蔵",
+    "Type": 9,
+    "Yomi": "むさし"
+  },
+  {
+    "Id": 144,
+    "AfterShip": 0,
+    "Name": "夕立改二",
+    "Type": 2,
+    "Yomi": "ゆうだち"
+  },
+  {
+    "Id": 145,
+    "AfterShip": 0,
+    "Name": "時雨改二",
+    "Type": 2,
+    "Yomi": "しぐれ"
+  },
+  {
+    "Id": 146,
+    "AfterShip": 0,
+    "Name": "木曾改二",
+    "Type": 4,
+    "Yomi": "きそ"
+  },
+  {
+    "Id": 147,
+    "AfterShip": 0,
+    "Name": "Верный",
+    "Type": 2,
+    "Yomi": "ひびき"
+  },
+  {
+    "Id": 148,
+    "AfterShip": 546,
+    "Name": "武蔵改",
+    "Type": 9,
+    "Yomi": "むさし"
+  },
+  {
+    "Id": 149,
+    "AfterShip": 591,
+    "Name": "金剛改二",
+    "Type": 8,
+    "Yomi": "こんごう"
+  },
+  {
+    "Id": 150,
+    "AfterShip": 0,
+    "Name": "比叡改二",
+    "Type": 8,
+    "Yomi": "ひえい"
+  },
+  {
+    "Id": 151,
+    "AfterShip": 0,
+    "Name": "榛名改二",
+    "Type": 8,
+    "Yomi": "はるな"
+  },
+  {
+    "Id": 152,
+    "AfterShip": 0,
+    "Name": "霧島改二",
+    "Type": 8,
+    "Yomi": "きりしま"
+  },
+  {
+    "Id": 153,
+    "AfterShip": 156,
+    "Name": "大鳳",
+    "Type": 18,
+    "Yomi": "たいほう"
+  },
+  {
+    "Id": 154,
+    "AfterShip": 343,
+    "Name": "香取",
+    "Type": 21,
+    "Yomi": "かとり"
+  },
+  {
+    "Id": 155,
+    "AfterShip": 403,
+    "Name": "伊401",
+    "Type": 14,
+    "Yomi": "い401"
+  },
+  {
+    "Id": 156,
+    "AfterShip": 0,
+    "Name": "大鳳改",
+    "Type": 18,
+    "Yomi": "たいほう"
+  },
+  {
+    "Id": 157,
+    "AfterShip": 0,
+    "Name": "龍驤改二",
+    "Type": 7,
+    "Yomi": "りゅうじょう"
+  },
+  {
+    "Id": 158,
+    "AfterShip": 0,
+    "Name": "川内改二",
+    "Type": 3,
+    "Yomi": "せんだい"
+  },
+  {
+    "Id": 159,
+    "AfterShip": 0,
+    "Name": "神通改二",
+    "Type": 3,
+    "Yomi": "じんつう"
+  },
+  {
+    "Id": 160,
+    "AfterShip": 0,
+    "Name": "那珂改二",
+    "Type": 3,
+    "Yomi": "なか"
+  },
+  {
+    "Id": 161,
+    "AfterShip": 166,
+    "Name": "あきつ丸",
+    "Type": 17,
+    "Yomi": "あきつまる"
+  },
+  {
+    "Id": 162,
+    "AfterShip": 499,
+    "Name": "神威",
+    "Type": 22,
+    "Yomi": "かもい"
+  },
+  {
+    "Id": 163,
+    "AfterShip": 402,
+    "Name": "まるゆ",
+    "Type": 13,
+    "Yomi": "まるゆ"
+  },
+  {
+    "Id": 164,
+    "AfterShip": 308,
+    "Name": "弥生",
+    "Type": 2,
+    "Yomi": "やよい"
+  },
+  {
+    "Id": 165,
+    "AfterShip": 309,
+    "Name": "卯月",
+    "Type": 2,
+    "Yomi": "うづき"
+  },
+  {
+    "Id": 166,
+    "AfterShip": 0,
+    "Name": "あきつ丸改",
+    "Type": 17,
+    "Yomi": "あきつまる"
+  },
+  {
+    "Id": 167,
+    "AfterShip": 320,
+    "Name": "磯風",
+    "Type": 2,
+    "Yomi": "いそかぜ"
+  },
+  {
+    "Id": 168,
+    "AfterShip": 317,
+    "Name": "浦風",
+    "Type": 2,
+    "Yomi": "うらかぜ"
+  },
+  {
+    "Id": 169,
+    "AfterShip": 313,
+    "Name": "谷風",
+    "Type": 2,
+    "Yomi": "たにかぜ"
+  },
+  {
+    "Id": 170,
+    "AfterShip": 312,
+    "Name": "浜風",
+    "Type": 2,
+    "Yomi": "はまかぜ"
+  },
+  {
+    "Id": 171,
+    "AfterShip": 172,
+    "Name": "Bismarck",
+    "Type": 8,
+    "Yomi": "ビスマルク"
+  },
+  {
+    "Id": 172,
+    "AfterShip": 173,
+    "Name": "Bismarck改",
+    "Type": 8,
+    "Yomi": "ビスマルク"
+  },
+  {
+    "Id": 173,
+    "AfterShip": 178,
+    "Name": "Bismarck zwei",
+    "Type": 8,
+    "Yomi": "ビスマルク"
+  },
+  {
+    "Id": 174,
+    "AfterShip": 310,
+    "Name": "Z1",
+    "Type": 2,
+    "Yomi": "レーベレヒト・マース"
+  },
+  {
+    "Id": 175,
+    "AfterShip": 311,
+    "Name": "Z3",
+    "Type": 2,
+    "Yomi": "マックス・シュルツ"
+  },
+  {
+    "Id": 176,
+    "AfterShip": 177,
+    "Name": "Prinz Eugen",
+    "Type": 5,
+    "Yomi": "プリンツ・オイゲン"
+  },
+  {
+    "Id": 177,
+    "AfterShip": 0,
+    "Name": "Prinz Eugen改",
+    "Type": 5,
+    "Yomi": "プリンツ・オイゲン"
+  },
+  {
+    "Id": 178,
+    "AfterShip": 0,
+    "Name": "Bismarck drei",
+    "Type": 8,
+    "Yomi": "ビスマルク"
+  },
+  {
+    "Id": 179,
+    "AfterShip": 0,
+    "Name": "Z1 zwei",
+    "Type": 2,
+    "Yomi": "レーベレヒト・マース"
+  },
+  {
+    "Id": 180,
+    "AfterShip": 0,
+    "Name": "Z3 zwei",
+    "Type": 2,
+    "Yomi": "マックス・シュルツ"
+  },
+  {
+    "Id": 181,
+    "AfterShip": 316,
+    "Name": "天津風",
+    "Type": 2,
+    "Yomi": "あまつかぜ"
+  },
+  {
+    "Id": 182,
+    "AfterShip": 187,
+    "Name": "明石",
+    "Type": 19,
+    "Yomi": "あかし"
+  },
+  {
+    "Id": 183,
+    "AfterShip": 321,
+    "Name": "大淀",
+    "Type": 3,
+    "Yomi": "おおよど"
+  },
+  {
+    "Id": 184,
+    "AfterShip": 185,
+    "Name": "大鯨",
+    "Type": 20,
+    "Yomi": "たいげい・りゅうほう"
+  },
+  {
+    "Id": 185,
+    "AfterShip": 318,
+    "Name": "龍鳳",
+    "Type": 7,
+    "Yomi": "たいげい・りゅうほう"
+  },
+  {
+    "Id": 186,
+    "AfterShip": 322,
+    "Name": "時津風",
+    "Type": 2,
+    "Yomi": "ときつかぜ"
+  },
+  {
+    "Id": 187,
+    "AfterShip": 0,
+    "Name": "明石改",
+    "Type": 19,
+    "Yomi": "あかし"
+  },
+  {
+    "Id": 188,
+    "AfterShip": 0,
+    "Name": "利根改二",
+    "Type": 6,
+    "Yomi": "とね"
+  },
+  {
+    "Id": 189,
+    "AfterShip": 0,
+    "Name": "筑摩改二",
+    "Type": 6,
+    "Yomi": "ちくま"
+  },
+  {
+    "Id": 190,
+    "AfterShip": 300,
+    "Name": "初風",
+    "Type": 2,
+    "Yomi": "はつかぜ"
+  },
+  {
+    "Id": 191,
+    "AfterShip": 401,
+    "Name": "伊19",
+    "Type": 13,
+    "Yomi": "い19"
+  },
+  {
+    "Id": 192,
+    "AfterShip": 0,
+    "Name": "那智改二",
+    "Type": 5,
+    "Yomi": "なち"
+  },
+  {
+    "Id": 193,
+    "AfterShip": 0,
+    "Name": "足柄改二",
+    "Type": 5,
+    "Yomi": "あしがら"
+  },
+  {
+    "Id": 194,
+    "AfterShip": 0,
+    "Name": "羽黒改二",
+    "Type": 5,
+    "Yomi": "はぐろ"
+  },
+  {
+    "Id": 195,
+    "AfterShip": 0,
+    "Name": "綾波改二",
+    "Type": 2,
+    "Yomi": "あやなみ"
+  },
+  {
+    "Id": 196,
+    "AfterShip": 0,
+    "Name": "飛龍改二",
+    "Type": 11,
+    "Yomi": "ひりゅう"
+  },
+  {
+    "Id": 197,
+    "AfterShip": 0,
+    "Name": "蒼龍改二",
+    "Type": 11,
+    "Yomi": "そうりゅう"
+  },
+  {
+    "Id": 198,
+    "AfterShip": 0,
+    "Name": "霰改二",
+    "Type": 2,
+    "Yomi": "あられ"
+  },
+  {
+    "Id": 199,
+    "AfterShip": 0,
+    "Name": "大潮改二",
+    "Type": 2,
+    "Yomi": "おおしお"
+  },
+  {
+    "Id": 200,
+    "AfterShip": 0,
+    "Name": "阿武隈改二",
+    "Type": 3,
+    "Yomi": "あぶくま"
+  },
+  {
+    "Id": 201,
+    "AfterShip": 426,
+    "Name": "吹雪改",
+    "Type": 2,
+    "Yomi": "ふぶき"
+  },
+  {
+    "Id": 202,
+    "AfterShip": 0,
+    "Name": "白雪改",
+    "Type": 2,
+    "Yomi": "しらゆき"
+  },
+  {
+    "Id": 203,
+    "AfterShip": 0,
+    "Name": "初雪改",
+    "Type": 2,
+    "Yomi": "はつゆき"
+  },
+  {
+    "Id": 204,
+    "AfterShip": 0,
+    "Name": "深雪改",
+    "Type": 2,
+    "Yomi": "みゆき"
+  },
+  {
+    "Id": 205,
+    "AfterShip": 420,
+    "Name": "叢雲改",
+    "Type": 2,
+    "Yomi": "むらくも"
+  },
+  {
+    "Id": 206,
+    "AfterShip": 0,
+    "Name": "磯波改",
+    "Type": 2,
+    "Yomi": "いそなみ"
+  },
+  {
+    "Id": 207,
+    "AfterShip": 195,
+    "Name": "綾波改",
+    "Type": 2,
+    "Yomi": "あやなみ"
+  },
+  {
+    "Id": 208,
+    "AfterShip": 0,
+    "Name": "敷波改",
+    "Type": 2,
+    "Yomi": "しきなみ"
+  },
+  {
+    "Id": 209,
+    "AfterShip": 149,
+    "Name": "金剛改",
+    "Type": 8,
+    "Yomi": "こんごう"
+  },
+  {
+    "Id": 210,
+    "AfterShip": 150,
+    "Name": "比叡改",
+    "Type": 8,
+    "Yomi": "ひえい"
+  },
+  {
+    "Id": 211,
+    "AfterShip": 151,
+    "Name": "榛名改",
+    "Type": 8,
+    "Yomi": "はるな"
+  },
+  {
+    "Id": 212,
+    "AfterShip": 152,
+    "Name": "霧島改",
+    "Type": 8,
+    "Yomi": "きりしま"
+  },
+  {
+    "Id": 213,
+    "AfterShip": 477,
+    "Name": "天龍改",
+    "Type": 3,
+    "Yomi": "てんりゅう"
+  },
+  {
+    "Id": 214,
+    "AfterShip": 478,
+    "Name": "龍田改",
+    "Type": 3,
+    "Yomi": "たつた"
+  },
+  {
+    "Id": 215,
+    "AfterShip": 0,
+    "Name": "球磨改",
+    "Type": 3,
+    "Yomi": "くま"
+  },
+  {
+    "Id": 216,
+    "AfterShip": 547,
+    "Name": "多摩改",
+    "Type": 3,
+    "Yomi": "たま"
+  },
+  {
+    "Id": 217,
+    "AfterShip": 146,
+    "Name": "木曾改",
+    "Type": 3,
+    "Yomi": "きそ"
+  },
+  {
+    "Id": 218,
+    "AfterShip": 0,
+    "Name": "長良改",
+    "Type": 3,
+    "Yomi": "ながら"
+  },
+  {
+    "Id": 219,
+    "AfterShip": 141,
+    "Name": "五十鈴改",
+    "Type": 3,
+    "Yomi": "いすず"
+  },
+  {
+    "Id": 220,
+    "AfterShip": 488,
+    "Name": "由良改",
+    "Type": 3,
+    "Yomi": "ゆら"
+  },
+  {
+    "Id": 221,
+    "AfterShip": 0,
+    "Name": "名取改",
+    "Type": 3,
+    "Yomi": "なとり"
+  },
+  {
+    "Id": 222,
+    "AfterShip": 158,
+    "Name": "川内改",
+    "Type": 3,
+    "Yomi": "せんだい"
+  },
+  {
+    "Id": 223,
+    "AfterShip": 159,
+    "Name": "神通改",
+    "Type": 3,
+    "Yomi": "じんつう"
+  },
+  {
+    "Id": 224,
+    "AfterShip": 160,
+    "Name": "那珂改",
+    "Type": 3,
+    "Yomi": "なか"
+  },
+  {
+    "Id": 225,
+    "AfterShip": 566,
+    "Name": "陽炎改",
+    "Type": 2,
+    "Yomi": "かげろう"
+  },
+  {
+    "Id": 226,
+    "AfterShip": 567,
+    "Name": "不知火改",
+    "Type": 2,
+    "Yomi": "しらぬい"
+  },
+  {
+    "Id": 227,
+    "AfterShip": 568,
+    "Name": "黒潮改",
+    "Type": 2,
+    "Yomi": "くろしお"
+  },
+  {
+    "Id": 228,
+    "AfterShip": 0,
+    "Name": "雪風改",
+    "Type": 2,
+    "Yomi": "ゆきかぜ"
+  },
+  {
+    "Id": 229,
+    "AfterShip": 0,
+    "Name": "島風改",
+    "Type": 2,
+    "Yomi": "しまかぜ"
+  },
+  {
+    "Id": 230,
+    "AfterShip": 0,
+    "Name": "朧改",
+    "Type": 2,
+    "Yomi": "おぼろ"
+  },
+  {
+    "Id": 231,
+    "AfterShip": 0,
+    "Name": "曙改",
+    "Type": 2,
+    "Yomi": "あけぼの"
+  },
+  {
+    "Id": 232,
+    "AfterShip": 0,
+    "Name": "漣改",
+    "Type": 2,
+    "Yomi": "さざなみ"
+  },
+  {
+    "Id": 233,
+    "AfterShip": 407,
+    "Name": "潮改",
+    "Type": 2,
+    "Yomi": "うしお"
+  },
+  {
+    "Id": 234,
+    "AfterShip": 437,
+    "Name": "暁改",
+    "Type": 2,
+    "Yomi": "あかつき"
+  },
+  {
+    "Id": 235,
+    "AfterShip": 147,
+    "Name": "響改",
+    "Type": 2,
+    "Yomi": "ひびき"
+  },
+  {
+    "Id": 236,
+    "AfterShip": 0,
+    "Name": "雷改",
+    "Type": 2,
+    "Yomi": "いかづち"
+  },
+  {
+    "Id": 237,
+    "AfterShip": 0,
+    "Name": "電改",
+    "Type": 2,
+    "Yomi": "いなづま"
+  },
+  {
+    "Id": 238,
+    "AfterShip": 326,
+    "Name": "初春改",
+    "Type": 2,
+    "Yomi": "はつはる"
+  },
+  {
+    "Id": 239,
+    "AfterShip": 0,
+    "Name": "子日改",
+    "Type": 2,
+    "Yomi": "ねのひ"
+  },
+  {
+    "Id": 240,
+    "AfterShip": 0,
+    "Name": "若葉改",
+    "Type": 2,
+    "Yomi": "わかば"
+  },
+  {
+    "Id": 241,
+    "AfterShip": 419,
+    "Name": "初霜改",
+    "Type": 2,
+    "Yomi": "はつしも"
+  },
+  {
+    "Id": 242,
+    "AfterShip": 497,
+    "Name": "白露改",
+    "Type": 2,
+    "Yomi": "しらつゆ"
+  },
+  {
+    "Id": 243,
+    "AfterShip": 145,
+    "Name": "時雨改",
+    "Type": 2,
+    "Yomi": "しぐれ"
+  },
+  {
+    "Id": 244,
+    "AfterShip": 498,
+    "Name": "村雨改",
+    "Type": 2,
+    "Yomi": "むらさめ"
+  },
+  {
+    "Id": 245,
+    "AfterShip": 144,
+    "Name": "夕立改",
+    "Type": 2,
+    "Yomi": "ゆうだち"
+  },
+  {
+    "Id": 246,
+    "AfterShip": 0,
+    "Name": "五月雨改",
+    "Type": 2,
+    "Yomi": "さみだれ"
+  },
+  {
+    "Id": 247,
+    "AfterShip": 0,
+    "Name": "涼風改",
+    "Type": 2,
+    "Yomi": "すずかぜ"
+  },
+  {
+    "Id": 248,
+    "AfterShip": 463,
+    "Name": "朝潮改",
+    "Type": 2,
+    "Yomi": "あさしお"
+  },
+  {
+    "Id": 249,
+    "AfterShip": 199,
+    "Name": "大潮改",
+    "Type": 2,
+    "Yomi": "おおしお"
+  },
+  {
+    "Id": 250,
+    "AfterShip": 489,
+    "Name": "満潮改",
+    "Type": 2,
+    "Yomi": "みちしお"
+  },
+  {
+    "Id": 251,
+    "AfterShip": 490,
+    "Name": "荒潮改",
+    "Type": 2,
+    "Yomi": "あらしお"
+  },
+  {
+    "Id": 252,
+    "AfterShip": 198,
+    "Name": "霰改",
+    "Type": 2,
+    "Yomi": "あられ"
+  },
+  {
+    "Id": 253,
+    "AfterShip": 464,
+    "Name": "霞改",
+    "Type": 2,
+    "Yomi": "かすみ"
+  },
+  {
+    "Id": 254,
+    "AfterShip": 434,
+    "Name": "睦月改",
+    "Type": 2,
+    "Yomi": "むつき"
+  },
+  {
+    "Id": 255,
+    "AfterShip": 435,
+    "Name": "如月改",
+    "Type": 2,
+    "Yomi": "きさらぎ"
+  },
+  {
+    "Id": 256,
+    "AfterShip": 418,
+    "Name": "皐月改",
+    "Type": 2,
+    "Yomi": "さつき"
+  },
+  {
+    "Id": 257,
+    "AfterShip": 548,
+    "Name": "文月改",
+    "Type": 2,
+    "Yomi": "ふみづき"
+  },
+  {
+    "Id": 258,
+    "AfterShip": 0,
+    "Name": "長月改",
+    "Type": 2,
+    "Yomi": "ながつき"
+  },
+  {
+    "Id": 259,
+    "AfterShip": 0,
+    "Name": "菊月改",
+    "Type": 2,
+    "Yomi": "きくづき"
+  },
+  {
+    "Id": 260,
+    "AfterShip": 0,
+    "Name": "三日月改",
+    "Type": 2,
+    "Yomi": "みかづき"
+  },
+  {
+    "Id": 261,
+    "AfterShip": 0,
+    "Name": "望月改",
+    "Type": 2,
+    "Yomi": "もちづき"
+  },
+  {
+    "Id": 262,
+    "AfterShip": 416,
+    "Name": "古鷹改",
+    "Type": 5,
+    "Yomi": "ふるたか"
+  },
+  {
+    "Id": 263,
+    "AfterShip": 417,
+    "Name": "加古改",
+    "Type": 5,
+    "Yomi": "かこ"
+  },
+  {
+    "Id": 264,
+    "AfterShip": 0,
+    "Name": "青葉改",
+    "Type": 5,
+    "Yomi": "あおば"
+  },
+  {
+    "Id": 265,
+    "AfterShip": 319,
+    "Name": "妙高改",
+    "Type": 5,
+    "Yomi": "みょうこう"
+  },
+  {
+    "Id": 266,
+    "AfterShip": 192,
+    "Name": "那智改",
+    "Type": 5,
+    "Yomi": "なち"
+  },
+  {
+    "Id": 267,
+    "AfterShip": 193,
+    "Name": "足柄改",
+    "Type": 5,
+    "Yomi": "あしがら"
+  },
+  {
+    "Id": 268,
+    "AfterShip": 194,
+    "Name": "羽黒改",
+    "Type": 5,
+    "Yomi": "はぐろ"
+  },
+  {
+    "Id": 269,
+    "AfterShip": 0,
+    "Name": "高雄改",
+    "Type": 5,
+    "Yomi": "たかお"
+  },
+  {
+    "Id": 270,
+    "AfterShip": 0,
+    "Name": "愛宕改",
+    "Type": 5,
+    "Yomi": "あたご"
+  },
+  {
+    "Id": 271,
+    "AfterShip": 428,
+    "Name": "摩耶改",
+    "Type": 5,
+    "Yomi": "まや"
+  },
+  {
+    "Id": 272,
+    "AfterShip": 427,
+    "Name": "鳥海改",
+    "Type": 5,
+    "Yomi": "ちょうかい"
+  },
+  {
+    "Id": 273,
+    "AfterShip": 188,
+    "Name": "利根改",
+    "Type": 5,
+    "Yomi": "とね"
+  },
+  {
+    "Id": 274,
+    "AfterShip": 189,
+    "Name": "筑摩改",
+    "Type": 5,
+    "Yomi": "ちくま"
+  },
+  {
+    "Id": 275,
+    "AfterShip": 541,
+    "Name": "長門改",
+    "Type": 9,
+    "Yomi": "ながと"
+  },
+  {
+    "Id": 276,
+    "AfterShip": 573,
+    "Name": "陸奥改",
+    "Type": 9,
+    "Yomi": "むつ"
+  },
+  {
+    "Id": 277,
+    "AfterShip": 594,
+    "Name": "赤城改",
+    "Type": 11,
+    "Yomi": "あかぎ"
+  },
+  {
+    "Id": 278,
+    "AfterShip": 0,
+    "Name": "加賀改",
+    "Type": 11,
+    "Yomi": "かが"
+  },
+  {
+    "Id": 279,
+    "AfterShip": 197,
+    "Name": "蒼龍改",
+    "Type": 11,
+    "Yomi": "そうりゅう"
+  },
+  {
+    "Id": 280,
+    "AfterShip": 196,
+    "Name": "飛龍改",
+    "Type": 11,
+    "Yomi": "ひりゅう"
+  },
+  {
+    "Id": 281,
+    "AfterShip": 157,
+    "Name": "龍驤改",
+    "Type": 7,
+    "Yomi": "りゅうじょう"
+  },
+  {
+    "Id": 282,
+    "AfterShip": 0,
+    "Name": "祥鳳改",
+    "Type": 7,
+    "Yomi": "しょうほう"
+  },
+  {
+    "Id": 283,
+    "AfterShip": 0,
+    "Name": "飛鷹改",
+    "Type": 7,
+    "Yomi": "ひよう"
+  },
+  {
+    "Id": 284,
+    "AfterShip": 408,
+    "Name": "隼鷹改",
+    "Type": 7,
+    "Yomi": "じゅんよう"
+  },
+  {
+    "Id": 285,
+    "AfterShip": 0,
+    "Name": "鳳翔改",
+    "Type": 7,
+    "Yomi": "ほうしょう"
+  },
+  {
+    "Id": 286,
+    "AfterShip": 411,
+    "Name": "扶桑改",
+    "Type": 10,
+    "Yomi": "ふそう"
+  },
+  {
+    "Id": 287,
+    "AfterShip": 412,
+    "Name": "山城改",
+    "Type": 10,
+    "Yomi": "やましろ"
+  },
+  {
+    "Id": 288,
+    "AfterShip": 461,
+    "Name": "翔鶴改",
+    "Type": 11,
+    "Yomi": "しょうかく"
+  },
+  {
+    "Id": 289,
+    "AfterShip": 487,
+    "Name": "鬼怒改",
+    "Type": 3,
+    "Yomi": "きぬ"
+  },
+  {
+    "Id": 290,
+    "AfterShip": 200,
+    "Name": "阿武隈改",
+    "Type": 3,
+    "Yomi": "あぶくま"
+  },
+  {
+    "Id": 291,
+    "AfterShip": 296,
+    "Name": "千歳航改",
+    "Type": 7,
+    "Yomi": "ちとせ"
+  },
+  {
+    "Id": 292,
+    "AfterShip": 297,
+    "Name": "千代田航改",
+    "Type": 7,
+    "Yomi": "ちよだ"
+  },
+  {
+    "Id": 293,
+    "AfterShip": 0,
+    "Name": "夕張改",
+    "Type": 3,
+    "Yomi": "ゆうばり"
+  },
+  {
+    "Id": 294,
+    "AfterShip": 0,
+    "Name": "舞風改",
+    "Type": 2,
+    "Yomi": "まいかぜ"
+  },
+  {
+    "Id": 295,
+    "AfterShip": 142,
+    "Name": "衣笠改",
+    "Type": 5,
+    "Yomi": "きぬがさ"
+  },
+  {
+    "Id": 296,
+    "AfterShip": 0,
+    "Name": "千歳航改二",
+    "Type": 7,
+    "Yomi": "ちとせ"
+  },
+  {
+    "Id": 297,
+    "AfterShip": 0,
+    "Name": "千代田航改二",
+    "Type": 7,
+    "Yomi": "ちよだ"
+  },
+  {
+    "Id": 300,
+    "AfterShip": 0,
+    "Name": "初風改",
+    "Type": 2,
+    "Yomi": "はつかぜ"
+  },
+  {
+    "Id": 301,
+    "AfterShip": 0,
+    "Name": "秋雲改",
+    "Type": 2,
+    "Yomi": "あきぐも"
+  },
+  {
+    "Id": 302,
+    "AfterShip": 542,
+    "Name": "夕雲改",
+    "Type": 2,
+    "Yomi": "ゆうぐも"
+  },
+  {
+    "Id": 303,
+    "AfterShip": 563,
+    "Name": "巻雲改",
+    "Type": 2,
+    "Yomi": "まきぐも"
+  },
+  {
+    "Id": 304,
+    "AfterShip": 543,
+    "Name": "長波改",
+    "Type": 2,
+    "Yomi": "ながなみ"
+  },
+  {
+    "Id": 305,
+    "AfterShip": 0,
+    "Name": "阿賀野改",
+    "Type": 3,
+    "Yomi": "あがの"
+  },
+  {
+    "Id": 306,
+    "AfterShip": 0,
+    "Name": "能代改",
+    "Type": 3,
+    "Yomi": "のしろ"
+  },
+  {
+    "Id": 307,
+    "AfterShip": 0,
+    "Name": "矢矧改",
+    "Type": 3,
+    "Yomi": "やはぎ"
+  },
+  {
+    "Id": 308,
+    "AfterShip": 0,
+    "Name": "弥生改",
+    "Type": 2,
+    "Yomi": "やよい"
+  },
+  {
+    "Id": 309,
+    "AfterShip": 0,
+    "Name": "卯月改",
+    "Type": 2,
+    "Yomi": "うづき"
+  },
+  {
+    "Id": 310,
+    "AfterShip": 179,
+    "Name": "Z1改",
+    "Type": 2,
+    "Yomi": "レーベレヒト・マース"
+  },
+  {
+    "Id": 311,
+    "AfterShip": 180,
+    "Name": "Z3改",
+    "Type": 2,
+    "Yomi": "マックス・シュルツ"
+  },
+  {
+    "Id": 312,
+    "AfterShip": 558,
+    "Name": "浜風改",
+    "Type": 2,
+    "Yomi": "はまかぜ"
+  },
+  {
+    "Id": 313,
+    "AfterShip": 559,
+    "Name": "谷風改",
+    "Type": 2,
+    "Yomi": "たにかぜ"
+  },
+  {
+    "Id": 314,
+    "AfterShip": 0,
+    "Name": "酒匂改",
+    "Type": 3,
+    "Yomi": "さかわ"
+  },
+  {
+    "Id": 316,
+    "AfterShip": 0,
+    "Name": "天津風改",
+    "Type": 2,
+    "Yomi": "あまつかぜ"
+  },
+  {
+    "Id": 317,
+    "AfterShip": 556,
+    "Name": "浦風改",
+    "Type": 2,
+    "Yomi": "うらかぜ"
+  },
+  {
+    "Id": 318,
+    "AfterShip": 0,
+    "Name": "龍鳳改",
+    "Type": 7,
+    "Yomi": "たいげい・りゅうほう"
+  },
+  {
+    "Id": 319,
+    "AfterShip": 0,
+    "Name": "妙高改二",
+    "Type": 5,
+    "Yomi": "みょうこう"
+  },
+  {
+    "Id": 320,
+    "AfterShip": 557,
+    "Name": "磯風改",
+    "Type": 2,
+    "Yomi": "いそかぜ"
+  },
+  {
+    "Id": 321,
+    "AfterShip": 0,
+    "Name": "大淀改",
+    "Type": 3,
+    "Yomi": "おおよど"
+  },
+  {
+    "Id": 322,
+    "AfterShip": 0,
+    "Name": "時津風改",
+    "Type": 2,
+    "Yomi": "ときつかぜ"
+  },
+  {
+    "Id": 323,
+    "AfterShip": 0,
+    "Name": "春雨改",
+    "Type": 2,
+    "Yomi": "はるさめ"
+  },
+  {
+    "Id": 324,
+    "AfterShip": 0,
+    "Name": "早霜改",
+    "Type": 2,
+    "Yomi": "はやしも"
+  },
+  {
+    "Id": 325,
+    "AfterShip": 0,
+    "Name": "清霜改",
+    "Type": 2,
+    "Yomi": "きよしも"
+  },
+  {
+    "Id": 326,
+    "AfterShip": 0,
+    "Name": "初春改二",
+    "Type": 2,
+    "Yomi": "はつはる"
+  },
+  {
+    "Id": 327,
+    "AfterShip": 0,
+    "Name": "朝雲改",
+    "Type": 2,
+    "Yomi": "あさぐも"
+  },
+  {
+    "Id": 328,
+    "AfterShip": 0,
+    "Name": "山雲改",
+    "Type": 2,
+    "Yomi": "やまぐも"
+  },
+  {
+    "Id": 329,
+    "AfterShip": 0,
+    "Name": "野分改",
+    "Type": 2,
+    "Yomi": "のわき"
+  },
+  {
+    "Id": 330,
+    "AfterShip": 0,
+    "Name": "秋月改",
+    "Type": 2,
+    "Yomi": "あきづき"
+  },
+  {
+    "Id": 331,
+    "AfterShip": 429,
+    "Name": "天城",
+    "Type": 11,
+    "Yomi": "あまぎ"
+  },
+  {
+    "Id": 332,
+    "AfterShip": 430,
+    "Name": "葛城",
+    "Type": 11,
+    "Yomi": "かつらぎ"
+  },
+  {
+    "Id": 334,
+    "AfterShip": 436,
+    "Name": "U-511改",
+    "Type": 13,
+    "Yomi": "ゆー511・ろ500"
+  },
+  {
+    "Id": 343,
+    "AfterShip": 0,
+    "Name": "香取改",
+    "Type": 21,
+    "Yomi": "かとり"
+  },
+  {
+    "Id": 344,
+    "AfterShip": 0,
+    "Name": "朝霜改",
+    "Type": 2,
+    "Yomi": "あさしも"
+  },
+  {
+    "Id": 345,
+    "AfterShip": 0,
+    "Name": "高波改",
+    "Type": 2,
+    "Yomi": "たかなみ"
+  },
+  {
+    "Id": 346,
+    "AfterShip": 0,
+    "Name": "照月改",
+    "Type": 2,
+    "Yomi": "てるづき"
+  },
+  {
+    "Id": 347,
+    "AfterShip": 0,
+    "Name": "Libeccio改",
+    "Type": 2,
+    "Yomi": "リベッチオ"
+  },
+  {
+    "Id": 348,
+    "AfterShip": 0,
+    "Name": "瑞穂改",
+    "Type": 16,
+    "Yomi": "みずほ"
+  },
+  {
+    "Id": 349,
+    "AfterShip": 564,
+    "Name": "風雲改",
+    "Type": 2,
+    "Yomi": "かざぐも"
+  },
+  {
+    "Id": 350,
+    "AfterShip": 0,
+    "Name": "海風改",
+    "Type": 2,
+    "Yomi": "うみかぜ"
+  },
+  {
+    "Id": 351,
+    "AfterShip": 469,
+    "Name": "江風改",
+    "Type": 2,
+    "Yomi": "かわかぜ"
+  },
+  {
+    "Id": 352,
+    "AfterShip": 0,
+    "Name": "速吸改",
+    "Type": 22,
+    "Yomi": "はやすい"
+  },
+  {
+    "Id": 353,
+    "AfterShip": 0,
+    "Name": "Graf Zeppelin改",
+    "Type": 11,
+    "Yomi": "グラーフ・ツェッペリン"
+  },
+  {
+    "Id": 354,
+    "AfterShip": 0,
+    "Name": "嵐改",
+    "Type": 2,
+    "Yomi": "あらし"
+  },
+  {
+    "Id": 355,
+    "AfterShip": 0,
+    "Name": "萩風改",
+    "Type": 2,
+    "Yomi": "はぎかぜ"
+  },
+  {
+    "Id": 356,
+    "AfterShip": 0,
+    "Name": "鹿島改",
+    "Type": 21,
+    "Yomi": "かしま"
+  },
+  {
+    "Id": 357,
+    "AfterShip": 0,
+    "Name": "初月改",
+    "Type": 2,
+    "Yomi": "はつづき"
+  },
+  {
+    "Id": 358,
+    "AfterShip": 496,
+    "Name": "Zara改",
+    "Type": 5,
+    "Yomi": "ザラ"
+  },
+  {
+    "Id": 359,
+    "AfterShip": 0,
+    "Name": "沖波改",
+    "Type": 2,
+    "Yomi": "おきなみ"
+  },
+  {
+    "Id": 360,
+    "AfterShip": 0,
+    "Name": "Iowa改",
+    "Type": 8,
+    "Yomi": "アイオワ"
+  },
+  {
+    "Id": 361,
+    "AfterShip": 0,
+    "Name": "Pola改",
+    "Type": 5,
+    "Yomi": "ポーラ"
+  },
+  {
+    "Id": 362,
+    "AfterShip": 0,
+    "Name": "親潮改",
+    "Type": 2,
+    "Yomi": "おやしお"
+  },
+  {
+    "Id": 363,
+    "AfterShip": 0,
+    "Name": "春風改",
+    "Type": 2,
+    "Yomi": "はるかぜ"
+  },
+  {
+    "Id": 364,
+    "AfterShip": 0,
+    "Name": "Warspite改",
+    "Type": 9,
+    "Yomi": "ウォースパイト"
+  },
+  {
+    "Id": 365,
+    "AfterShip": 0,
+    "Name": "Aquila改",
+    "Type": 11,
+    "Yomi": "アクィラ"
+  },
+  {
+    "Id": 366,
+    "AfterShip": 0,
+    "Name": "水無月改",
+    "Type": 2,
+    "Yomi": "みなづき"
+  },
+  {
+    "Id": 367,
+    "AfterShip": 0,
+    "Name": "伊26改",
+    "Type": 14,
+    "Yomi": "い26"
+  },
+  {
+    "Id": 368,
+    "AfterShip": 0,
+    "Name": "浦波改",
+    "Type": 2,
+    "Yomi": "うらなみ"
+  },
+  {
+    "Id": 369,
+    "AfterShip": 0,
+    "Name": "山風改",
+    "Type": 2,
+    "Yomi": "やまかぜ"
+  },
+  {
+    "Id": 370,
+    "AfterShip": 0,
+    "Name": "朝風改",
+    "Type": 2,
+    "Yomi": "あさかぜ"
+  },
+  {
+    "Id": 371,
+    "AfterShip": 0,
+    "Name": "松風改",
+    "Type": 2,
+    "Yomi": "まつかぜ"
+  },
+  {
+    "Id": 372,
+    "AfterShip": 0,
+    "Name": "Commandant Teste改",
+    "Type": 16,
+    "Yomi": "コマンダン・テスト"
+  },
+  {
+    "Id": 373,
+    "AfterShip": 0,
+    "Name": "藤波改",
+    "Type": 2,
+    "Yomi": "ふじなみ"
+  },
+  {
+    "Id": 374,
+    "AfterShip": 0,
+    "Name": "伊13改",
+    "Type": 14,
+    "Yomi": "い13"
+  },
+  {
+    "Id": 375,
+    "AfterShip": 0,
+    "Name": "伊14改",
+    "Type": 14,
+    "Yomi": "い14"
+  },
+  {
+    "Id": 376,
+    "AfterShip": 0,
+    "Name": "占守改",
+    "Type": 1,
+    "Yomi": "しむしゅ"
+  },
+  {
+    "Id": 377,
+    "AfterShip": 0,
+    "Name": "国後改",
+    "Type": 1,
+    "Yomi": "くなしり"
+  },
+  {
+    "Id": 378,
+    "AfterShip": 0,
+    "Name": "八丈改",
+    "Type": 1,
+    "Yomi": "はちじょう"
+  },
+  {
+    "Id": 379,
+    "AfterShip": 0,
+    "Name": "石垣改",
+    "Type": 1,
+    "Yomi": "いしがき"
+  },
+  {
+    "Id": 380,
+    "AfterShip": 529,
+    "Name": "大鷹改",
+    "Type": 7,
+    "Yomi": "たいよう"
+  },
+  {
+    "Id": 381,
+    "AfterShip": 536,
+    "Name": "神鷹改",
+    "Type": 7,
+    "Yomi": "しんよう"
+  },
+  {
+    "Id": 383,
+    "AfterShip": 0,
+    "Name": "択捉改",
+    "Type": 1,
+    "Yomi": "えとろふ"
+  },
+  {
+    "Id": 384,
+    "AfterShip": 0,
+    "Name": "松輪改",
+    "Type": 1,
+    "Yomi": "まつわ"
+  },
+  {
+    "Id": 385,
+    "AfterShip": 0,
+    "Name": "佐渡改",
+    "Type": 1,
+    "Yomi": "さど"
+  },
+  {
+    "Id": 386,
+    "AfterShip": 0,
+    "Name": "対馬改",
+    "Type": 1,
+    "Yomi": "つしま"
+  },
+  {
+    "Id": 387,
+    "AfterShip": 0,
+    "Name": "旗風改",
+    "Type": 2,
+    "Yomi": "はたかぜ"
+  },
+  {
+    "Id": 390,
+    "AfterShip": 0,
+    "Name": "天霧改",
+    "Type": 2,
+    "Yomi": "あまぎり"
+  },
+  {
+    "Id": 391,
+    "AfterShip": 0,
+    "Name": "狭霧改",
+    "Type": 2,
+    "Yomi": "さぎり"
+  },
+  {
+    "Id": 392,
+    "AfterShip": 0,
+    "Name": "Richelieu改",
+    "Type": 8,
+    "Yomi": "リシュリュー"
+  },
+  {
+    "Id": 393,
+    "AfterShip": 0,
+    "Name": "Ark Royal改",
+    "Type": 11,
+    "Yomi": "アークロイヤル"
+  },
+  {
+    "Id": 394,
+    "AfterShip": 0,
+    "Name": "Jervis改",
+    "Type": 2,
+    "Yomi": "ジャーヴィス"
+  },
+  {
+    "Id": 395,
+    "AfterShip": 0,
+    "Name": "Ташкент改",
+    "Type": 2,
+    "Yomi": "タシュケント"
+  },
+  {
+    "Id": 396,
+    "AfterShip": 0,
+    "Name": "Gambier Bay改",
+    "Type": 7,
+    "Yomi": "ガンビア・ベイ"
+  },
+  {
+    "Id": 397,
+    "AfterShip": 0,
+    "Name": "Intrepid改",
+    "Type": 11,
+    "Yomi": "イントレピッド"
+  },
+  {
+    "Id": 398,
+    "AfterShip": 0,
+    "Name": "伊168改",
+    "Type": 13,
+    "Yomi": "い168"
+  },
+  {
+    "Id": 399,
+    "AfterShip": 0,
+    "Name": "伊58改",
+    "Type": 14,
+    "Yomi": "い58"
+  },
+  {
+    "Id": 400,
+    "AfterShip": 0,
+    "Name": "伊8改",
+    "Type": 14,
+    "Yomi": "い8"
+  },
+  {
+    "Id": 401,
+    "AfterShip": 0,
+    "Name": "伊19改",
+    "Type": 14,
+    "Yomi": "い19"
+  },
+  {
+    "Id": 402,
+    "AfterShip": 0,
+    "Name": "まるゆ改",
+    "Type": 13,
+    "Yomi": "まるゆ"
+  },
+  {
+    "Id": 403,
+    "AfterShip": 0,
+    "Name": "伊401改",
+    "Type": 14,
+    "Yomi": "い401"
+  },
+  {
+    "Id": 404,
+    "AfterShip": 406,
+    "Name": "雲龍",
+    "Type": 11,
+    "Yomi": "うんりゅう"
+  },
+  {
+    "Id": 405,
+    "AfterShip": 323,
+    "Name": "春雨",
+    "Type": 2,
+    "Yomi": "はるさめ"
+  },
+  {
+    "Id": 406,
+    "AfterShip": 0,
+    "Name": "雲龍改",
+    "Type": 11,
+    "Yomi": "うんりゅう"
+  },
+  {
+    "Id": 407,
+    "AfterShip": 0,
+    "Name": "潮改二",
+    "Type": 2,
+    "Yomi": "うしお"
+  },
+  {
+    "Id": 408,
+    "AfterShip": 0,
+    "Name": "隼鷹改二",
+    "Type": 7,
+    "Yomi": "じゅんよう"
+  },
+  {
+    "Id": 409,
+    "AfterShip": 324,
+    "Name": "早霜",
+    "Type": 2,
+    "Yomi": "はやしも"
+  },
+  {
+    "Id": 410,
+    "AfterShip": 325,
+    "Name": "清霜",
+    "Type": 2,
+    "Yomi": "きよしも"
+  },
+  {
+    "Id": 411,
+    "AfterShip": 0,
+    "Name": "扶桑改二",
+    "Type": 10,
+    "Yomi": "ふそう"
+  },
+  {
+    "Id": 412,
+    "AfterShip": 0,
+    "Name": "山城改二",
+    "Type": 10,
+    "Yomi": "やましろ"
+  },
+  {
+    "Id": 413,
+    "AfterShip": 327,
+    "Name": "朝雲",
+    "Type": 2,
+    "Yomi": "あさぐも"
+  },
+  {
+    "Id": 414,
+    "AfterShip": 328,
+    "Name": "山雲",
+    "Type": 2,
+    "Yomi": "やまぐも"
+  },
+  {
+    "Id": 415,
+    "AfterShip": 329,
+    "Name": "野分",
+    "Type": 2,
+    "Yomi": "のわき"
+  },
+  {
+    "Id": 416,
+    "AfterShip": 0,
+    "Name": "古鷹改二",
+    "Type": 5,
+    "Yomi": "ふるたか"
+  },
+  {
+    "Id": 417,
+    "AfterShip": 0,
+    "Name": "加古改二",
+    "Type": 5,
+    "Yomi": "かこ"
+  },
+  {
+    "Id": 418,
+    "AfterShip": 0,
+    "Name": "皐月改二",
+    "Type": 2,
+    "Yomi": "さつき"
+  },
+  {
+    "Id": 419,
+    "AfterShip": 0,
+    "Name": "初霜改二",
+    "Type": 2,
+    "Yomi": "はつしも"
+  },
+  {
+    "Id": 420,
+    "AfterShip": 0,
+    "Name": "叢雲改二",
+    "Type": 2,
+    "Yomi": "むらくも"
+  },
+  {
+    "Id": 421,
+    "AfterShip": 330,
+    "Name": "秋月",
+    "Type": 2,
+    "Yomi": "あきづき"
+  },
+  {
+    "Id": 422,
+    "AfterShip": 346,
+    "Name": "照月",
+    "Type": 2,
+    "Yomi": "てるづき"
+  },
+  {
+    "Id": 423,
+    "AfterShip": 357,
+    "Name": "初月",
+    "Type": 2,
+    "Yomi": "はつづき"
+  },
+  {
+    "Id": 424,
+    "AfterShip": 345,
+    "Name": "高波",
+    "Type": 2,
+    "Yomi": "たかなみ"
+  },
+  {
+    "Id": 425,
+    "AfterShip": 344,
+    "Name": "朝霜",
+    "Type": 2,
+    "Yomi": "あさしも"
+  },
+  {
+    "Id": 426,
+    "AfterShip": 0,
+    "Name": "吹雪改二",
+    "Type": 2,
+    "Yomi": "ふぶき"
+  },
+  {
+    "Id": 427,
+    "AfterShip": 0,
+    "Name": "鳥海改二",
+    "Type": 5,
+    "Yomi": "ちょうかい"
+  },
+  {
+    "Id": 428,
+    "AfterShip": 0,
+    "Name": "摩耶改二",
+    "Type": 5,
+    "Yomi": "まや"
+  },
+  {
+    "Id": 429,
+    "AfterShip": 0,
+    "Name": "天城改",
+    "Type": 11,
+    "Yomi": "あまぎ"
+  },
+  {
+    "Id": 430,
+    "AfterShip": 0,
+    "Name": "葛城改",
+    "Type": 11,
+    "Yomi": "かつらぎ"
+  },
+  {
+    "Id": 431,
+    "AfterShip": 334,
+    "Name": "U-511",
+    "Type": 13,
+    "Yomi": "ゆー511・ろ500"
+  },
+  {
+    "Id": 432,
+    "AfterShip": 353,
+    "Name": "Graf Zeppelin",
+    "Type": 11,
+    "Yomi": "グラーフ・ツェッペリン"
+  },
+  {
+    "Id": 433,
+    "AfterShip": 438,
+    "Name": "Saratoga",
+    "Type": 11,
+    "Yomi": "サラトガ"
+  },
+  {
+    "Id": 434,
+    "AfterShip": 0,
+    "Name": "睦月改二",
+    "Type": 2,
+    "Yomi": "むつき"
+  },
+  {
+    "Id": 435,
+    "AfterShip": 0,
+    "Name": "如月改二",
+    "Type": 2,
+    "Yomi": "きさらぎ"
+  },
+  {
+    "Id": 436,
+    "AfterShip": 0,
+    "Name": "呂500",
+    "Type": 13,
+    "Yomi": "ゆー511・ろ500"
+  },
+  {
+    "Id": 437,
+    "AfterShip": 0,
+    "Name": "暁改二",
+    "Type": 2,
+    "Yomi": "あかつき"
+  },
+  {
+    "Id": 438,
+    "AfterShip": 545,
+    "Name": "Saratoga改",
+    "Type": 11,
+    "Yomi": "サラトガ"
+  },
+  {
+    "Id": 439,
+    "AfterShip": 364,
+    "Name": "Warspite",
+    "Type": 9,
+    "Yomi": "ウォースパイト"
+  },
+  {
+    "Id": 440,
+    "AfterShip": 360,
+    "Name": "Iowa",
+    "Type": 8,
+    "Yomi": "アイオワ"
+  },
+  {
+    "Id": 441,
+    "AfterShip": 446,
+    "Name": "Littorio",
+    "Type": 8,
+    "Yomi": "リットリオ・イタリア"
+  },
+  {
+    "Id": 442,
+    "AfterShip": 447,
+    "Name": "Roma",
+    "Type": 8,
+    "Yomi": "ローマ"
+  },
+  {
+    "Id": 443,
+    "AfterShip": 347,
+    "Name": "Libeccio",
+    "Type": 2,
+    "Yomi": "リベッチオ"
+  },
+  {
+    "Id": 444,
+    "AfterShip": 365,
+    "Name": "Aquila",
+    "Type": 11,
+    "Yomi": "アクィラ"
+  },
+  {
+    "Id": 445,
+    "AfterShip": 450,
+    "Name": "秋津洲",
+    "Type": 16,
+    "Yomi": "あきつしま"
+  },
+  {
+    "Id": 446,
+    "AfterShip": 0,
+    "Name": "Italia",
+    "Type": 8,
+    "Yomi": "リットリオ・イタリア"
+  },
+  {
+    "Id": 447,
+    "AfterShip": 0,
+    "Name": "Roma改",
+    "Type": 8,
+    "Yomi": "ローマ"
+  },
+  {
+    "Id": 448,
+    "AfterShip": 358,
+    "Name": "Zara",
+    "Type": 5,
+    "Yomi": "ザラ"
+  },
+  {
+    "Id": 449,
+    "AfterShip": 361,
+    "Name": "Pola",
+    "Type": 5,
+    "Yomi": "ポーラ"
+  },
+  {
+    "Id": 450,
+    "AfterShip": 0,
+    "Name": "秋津洲改",
+    "Type": 16,
+    "Yomi": "あきつしま"
+  },
+  {
+    "Id": 451,
+    "AfterShip": 348,
+    "Name": "瑞穂",
+    "Type": 16,
+    "Yomi": "みずほ"
+  },
+  {
+    "Id": 452,
+    "AfterShip": 359,
+    "Name": "沖波",
+    "Type": 2,
+    "Yomi": "おきなみ"
+  },
+  {
+    "Id": 453,
+    "AfterShip": 349,
+    "Name": "風雲",
+    "Type": 2,
+    "Yomi": "かざぐも"
+  },
+  {
+    "Id": 454,
+    "AfterShip": 354,
+    "Name": "嵐",
+    "Type": 2,
+    "Yomi": "あらし"
+  },
+  {
+    "Id": 455,
+    "AfterShip": 355,
+    "Name": "萩風",
+    "Type": 2,
+    "Yomi": "はぎかぜ"
+  },
+  {
+    "Id": 456,
+    "AfterShip": 362,
+    "Name": "親潮",
+    "Type": 2,
+    "Yomi": "おやしお"
+  },
+  {
+    "Id": 457,
+    "AfterShip": 369,
+    "Name": "山風",
+    "Type": 2,
+    "Yomi": "やまかぜ"
+  },
+  {
+    "Id": 458,
+    "AfterShip": 350,
+    "Name": "海風",
+    "Type": 2,
+    "Yomi": "うみかぜ"
+  },
+  {
+    "Id": 459,
+    "AfterShip": 351,
+    "Name": "江風",
+    "Type": 2,
+    "Yomi": "かわかぜ"
+  },
+  {
+    "Id": 460,
+    "AfterShip": 352,
+    "Name": "速吸",
+    "Type": 22,
+    "Yomi": "はやすい"
+  },
+  {
+    "Id": 461,
+    "AfterShip": 466,
+    "Name": "翔鶴改二",
+    "Type": 11,
+    "Yomi": "しょうかく"
+  },
+  {
+    "Id": 462,
+    "AfterShip": 467,
+    "Name": "瑞鶴改二",
+    "Type": 11,
+    "Yomi": "ずいかく"
+  },
+  {
+    "Id": 463,
+    "AfterShip": 468,
+    "Name": "朝潮改二",
+    "Type": 2,
+    "Yomi": "あさしお"
+  },
+  {
+    "Id": 464,
+    "AfterShip": 470,
+    "Name": "霞改二",
+    "Type": 2,
+    "Yomi": "かすみ"
+  },
+  {
+    "Id": 465,
+    "AfterShip": 356,
+    "Name": "鹿島",
+    "Type": 21,
+    "Yomi": "かしま"
+  },
+  {
+    "Id": 466,
+    "AfterShip": 461,
+    "Name": "翔鶴改二甲",
+    "Type": 18,
+    "Yomi": "しょうかく"
+  },
+  {
+    "Id": 467,
+    "AfterShip": 462,
+    "Name": "瑞鶴改二甲",
+    "Type": 18,
+    "Yomi": "ずいかく"
+  },
+  {
+    "Id": 468,
+    "AfterShip": 463,
+    "Name": "朝潮改二丁",
+    "Type": 2,
+    "Yomi": "あさしお"
+  },
+  {
+    "Id": 469,
+    "AfterShip": 0,
+    "Name": "江風改二",
+    "Type": 2,
+    "Yomi": "かわかぜ"
+  },
+  {
+    "Id": 470,
+    "AfterShip": 464,
+    "Name": "霞改二乙",
+    "Type": 2,
+    "Yomi": "かすみ"
+  },
+  {
+    "Id": 471,
+    "AfterShip": 476,
+    "Name": "神風",
+    "Type": 2,
+    "Yomi": "かみかぜ"
+  },
+  {
+    "Id": 472,
+    "AfterShip": 370,
+    "Name": "朝風",
+    "Type": 2,
+    "Yomi": "あさかぜ"
+  },
+  {
+    "Id": 473,
+    "AfterShip": 363,
+    "Name": "春風",
+    "Type": 2,
+    "Yomi": "はるかぜ"
+  },
+  {
+    "Id": 474,
+    "AfterShip": 371,
+    "Name": "松風",
+    "Type": 2,
+    "Yomi": "まつかぜ"
+  },
+  {
+    "Id": 475,
+    "AfterShip": 387,
+    "Name": "旗風",
+    "Type": 2,
+    "Yomi": "はたかぜ"
+  },
+  {
+    "Id": 476,
+    "AfterShip": 0,
+    "Name": "神風改",
+    "Type": 2,
+    "Yomi": "かみかぜ"
+  },
+  {
+    "Id": 477,
+    "AfterShip": 0,
+    "Name": "天龍改二",
+    "Type": 3,
+    "Yomi": "てんりゅう"
+  },
+  {
+    "Id": 478,
+    "AfterShip": 0,
+    "Name": "龍田改二",
+    "Type": 3,
+    "Yomi": "たつた"
+  },
+  {
+    "Id": 479,
+    "AfterShip": 390,
+    "Name": "天霧",
+    "Type": 2,
+    "Yomi": "あまぎり"
+  },
+  {
+    "Id": 480,
+    "AfterShip": 391,
+    "Name": "狭霧",
+    "Type": 2,
+    "Yomi": "さぎり"
+  },
+  {
+    "Id": 481,
+    "AfterShip": 366,
+    "Name": "水無月",
+    "Type": 2,
+    "Yomi": "みなづき"
+  },
+  {
+    "Id": 483,
+    "AfterShip": 367,
+    "Name": "伊26",
+    "Type": 13,
+    "Yomi": "い26"
+  },
+  {
+    "Id": 484,
+    "AfterShip": 680,
+    "Name": "浜波",
+    "Type": 2,
+    "Yomi": "はまなみ"
+  },
+  {
+    "Id": 485,
+    "AfterShip": 373,
+    "Name": "藤波",
+    "Type": 2,
+    "Yomi": "ふじなみ"
+  },
+  {
+    "Id": 486,
+    "AfterShip": 368,
+    "Name": "浦波",
+    "Type": 2,
+    "Yomi": "うらなみ"
+  },
+  {
+    "Id": 487,
+    "AfterShip": 0,
+    "Name": "鬼怒改二",
+    "Type": 3,
+    "Yomi": "きぬ"
+  },
+  {
+    "Id": 488,
+    "AfterShip": 0,
+    "Name": "由良改二",
+    "Type": 3,
+    "Yomi": "ゆら"
+  },
+  {
+    "Id": 489,
+    "AfterShip": 0,
+    "Name": "満潮改二",
+    "Type": 2,
+    "Yomi": "みちしお"
+  },
+  {
+    "Id": 490,
+    "AfterShip": 0,
+    "Name": "荒潮改二",
+    "Type": 2,
+    "Yomi": "あらしお"
+  },
+  {
+    "Id": 491,
+    "AfterShip": 372,
+    "Name": "Commandant Teste",
+    "Type": 16,
+    "Yomi": "コマンダン・テスト"
+  },
+  {
+    "Id": 492,
+    "AfterShip": 392,
+    "Name": "Richelieu",
+    "Type": 8,
+    "Yomi": "リシュリュー"
+  },
+  {
+    "Id": 493,
+    "AfterShip": 606,
+    "Name": "伊400",
+    "Type": 14,
+    "Yomi": "い400"
+  },
+  {
+    "Id": 494,
+    "AfterShip": 374,
+    "Name": "伊13",
+    "Type": 14,
+    "Yomi": "い13"
+  },
+  {
+    "Id": 495,
+    "AfterShip": 375,
+    "Name": "伊14",
+    "Type": 14,
+    "Yomi": "い14"
+  },
+  {
+    "Id": 496,
+    "AfterShip": 0,
+    "Name": "Zara due",
+    "Type": 5,
+    "Yomi": "ザラ"
+  },
+  {
+    "Id": 497,
+    "AfterShip": 0,
+    "Name": "白露改二",
+    "Type": 2,
+    "Yomi": "しらつゆ"
+  },
+  {
+    "Id": 498,
+    "AfterShip": 0,
+    "Name": "村雨改二",
+    "Type": 2,
+    "Yomi": "むらさめ"
+  },
+  {
+    "Id": 499,
+    "AfterShip": 500,
+    "Name": "神威改",
+    "Type": 16,
+    "Yomi": "かもい"
+  },
+  {
+    "Id": 500,
+    "AfterShip": 0,
+    "Name": "神威改母",
+    "Type": 22,
+    "Yomi": "かもい"
+  },
+  {
+    "Id": 503,
+    "AfterShip": 508,
+    "Name": "鈴谷改二",
+    "Type": 6,
+    "Yomi": "すずや"
+  },
+  {
+    "Id": 504,
+    "AfterShip": 509,
+    "Name": "熊野改二",
+    "Type": 6,
+    "Yomi": "くまの"
+  },
+  {
+    "Id": 508,
+    "AfterShip": 503,
+    "Name": "鈴谷航改二",
+    "Type": 7,
+    "Yomi": "すずや"
+  },
+  {
+    "Id": 509,
+    "AfterShip": 504,
+    "Name": "熊野航改二",
+    "Type": 7,
+    "Yomi": "くまの"
+  },
+  {
+    "Id": 511,
+    "AfterShip": 512,
+    "Name": "Гангут",
+    "Type": 8,
+    "Yomi": "ガングート"
+  },
+  {
+    "Id": 512,
+    "AfterShip": 513,
+    "Name": "Октябрьская революция",
+    "Type": 8,
+    "Yomi": "ガングート"
+  },
+  {
+    "Id": 513,
+    "AfterShip": 0,
+    "Name": "Гангут два",
+    "Type": 8,
+    "Yomi": "ガングート"
+  },
+  {
+    "Id": 515,
+    "AfterShip": 393,
+    "Name": "Ark Royal",
+    "Type": 11,
+    "Yomi": "アークロイヤル"
+  },
+  {
+    "Id": 516,
+    "AfterShip": 395,
+    "Name": "Ташкент",
+    "Type": 2,
+    "Yomi": "タシュケント"
+  },
+  {
+    "Id": 517,
+    "AfterShip": 376,
+    "Name": "占守",
+    "Type": 1,
+    "Yomi": "しむしゅ"
+  },
+  {
+    "Id": 518,
+    "AfterShip": 377,
+    "Name": "国後",
+    "Type": 1,
+    "Yomi": "くなしり"
+  },
+  {
+    "Id": 519,
+    "AfterShip": 394,
+    "Name": "Jervis",
+    "Type": 2,
+    "Yomi": "ジャーヴィス"
+  },
+  {
+    "Id": 521,
+    "AfterShip": 526,
+    "Name": "春日丸",
+    "Type": 7,
+    "Yomi": "たいよう"
+  },
+  {
+    "Id": 524,
+    "AfterShip": 383,
+    "Name": "択捉",
+    "Type": 1,
+    "Yomi": "えとろふ"
+  },
+  {
+    "Id": 525,
+    "AfterShip": 384,
+    "Name": "松輪",
+    "Type": 1,
+    "Yomi": "まつわ"
+  },
+  {
+    "Id": 526,
+    "AfterShip": 380,
+    "Name": "大鷹",
+    "Type": 7,
+    "Yomi": "たいよう"
+  },
+  {
+    "Id": 527,
+    "AfterShip": 686,
+    "Name": "岸波",
+    "Type": 2,
+    "Yomi": "きしなみ"
+  },
+  {
+    "Id": 528,
+    "AfterShip": 688,
+    "Name": "早波",
+    "Type": 2,
+    "Yomi": "はやなみ"
+  },
+  {
+    "Id": 529,
+    "AfterShip": 0,
+    "Name": "大鷹改二",
+    "Type": 7,
+    "Yomi": "たいよう"
+  },
+  {
+    "Id": 530,
+    "AfterShip": 0,
+    "Name": "伊504",
+    "Type": 13,
+    "Yomi": "ルイージ・トレッリ"
+  },
+  {
+    "Id": 531,
+    "AfterShip": 385,
+    "Name": "佐渡",
+    "Type": 1,
+    "Yomi": "さど"
+  },
+  {
+    "Id": 532,
+    "AfterShip": 537,
+    "Name": "涼月",
+    "Type": 2,
+    "Yomi": "すずつき"
+  },
+  {
+    "Id": 534,
+    "AfterShip": 381,
+    "Name": "神鷹",
+    "Type": 7,
+    "Yomi": "しんよう"
+  },
+  {
+    "Id": 535,
+    "AfterShip": 605,
+    "Name": "Luigi Torelli",
+    "Type": 13,
+    "Yomi": "ルイージ・トレッリ"
+  },
+  {
+    "Id": 536,
+    "AfterShip": 0,
+    "Name": "神鷹改二",
+    "Type": 7,
+    "Yomi": "しんよう"
+  },
+  {
+    "Id": 537,
+    "AfterShip": 0,
+    "Name": "涼月改",
+    "Type": 2,
+    "Yomi": "すずつき"
+  },
+  {
+    "Id": 539,
+    "AfterShip": 530,
+    "Name": "UIT-25",
+    "Type": 13,
+    "Yomi": "ルイージ・トレッリ"
+  },
+  {
+    "Id": 540,
+    "AfterShip": 386,
+    "Name": "対馬",
+    "Type": 1,
+    "Yomi": "つしま"
+  },
+  {
+    "Id": 541,
+    "AfterShip": 0,
+    "Name": "長門改二",
+    "Type": 9,
+    "Yomi": "ながと"
+  },
+  {
+    "Id": 542,
+    "AfterShip": 0,
+    "Name": "夕雲改二",
+    "Type": 2,
+    "Yomi": "ゆうぐも"
+  },
+  {
+    "Id": 543,
+    "AfterShip": 0,
+    "Name": "長波改二",
+    "Type": 2,
+    "Yomi": "ながなみ"
+  },
+  {
+    "Id": 544,
+    "AfterShip": 396,
+    "Name": "Gambier Bay",
+    "Type": 7,
+    "Yomi": "ガンビア・ベイ"
+  },
+  {
+    "Id": 545,
+    "AfterShip": 550,
+    "Name": "Saratoga Mk.II",
+    "Type": 11,
+    "Yomi": "サラトガ"
+  },
+  {
+    "Id": 546,
+    "AfterShip": 0,
+    "Name": "武蔵改二",
+    "Type": 9,
+    "Yomi": "むさし"
+  },
+  {
+    "Id": 547,
+    "AfterShip": 0,
+    "Name": "多摩改二",
+    "Type": 3,
+    "Yomi": "たま"
+  },
+  {
+    "Id": 548,
+    "AfterShip": 0,
+    "Name": "文月改二",
+    "Type": 2,
+    "Yomi": "ふみづき"
+  },
+  {
+    "Id": 549,
+    "AfterShip": 397,
+    "Name": "Intrepid",
+    "Type": 11,
+    "Yomi": "イントレピッド"
+  },
+  {
+    "Id": 550,
+    "AfterShip": 545,
+    "Name": "Saratoga Mk.II Mod.2",
+    "Type": 18,
+    "Yomi": "サラトガ"
+  },
+  {
+    "Id": 551,
+    "AfterShip": 678,
+    "Name": "日振",
+    "Type": 1,
+    "Yomi": "ひぶり"
+  },
+  {
+    "Id": 552,
+    "AfterShip": 679,
+    "Name": "大東",
+    "Type": 1,
+    "Yomi": "だいとう"
+  },
+  {
+    "Id": 553,
+    "AfterShip": 0,
+    "Name": "伊勢改二",
+    "Type": 10,
+    "Yomi": "いせ"
+  },
+  {
+    "Id": 554,
+    "AfterShip": 0,
+    "Name": "日向改二",
+    "Type": 10,
+    "Yomi": "ひゅうが"
+  },
+  {
+    "Id": 555,
+    "AfterShip": 560,
+    "Name": "瑞鳳改二",
+    "Type": 7,
+    "Yomi": "ずいほう"
+  },
+  {
+    "Id": 556,
+    "AfterShip": 0,
+    "Name": "浦風丁改",
+    "Type": 2,
+    "Yomi": "うらかぜ"
+  },
+  {
+    "Id": 557,
+    "AfterShip": 0,
+    "Name": "磯風乙改",
+    "Type": 2,
+    "Yomi": "いそかぜ"
+  },
+  {
+    "Id": 558,
+    "AfterShip": 0,
+    "Name": "浜風乙改",
+    "Type": 2,
+    "Yomi": "はまかぜ"
+  },
+  {
+    "Id": 559,
+    "AfterShip": 0,
+    "Name": "谷風丁改",
+    "Type": 2,
+    "Yomi": "たにかぜ"
+  },
+  {
+    "Id": 560,
+    "AfterShip": 555,
+    "Name": "瑞鳳改二乙",
+    "Type": 7,
+    "Yomi": "ずいほう"
+  },
+  {
+    "Id": 561,
+    "AfterShip": 681,
+    "Name": "Samuel B.Roberts",
+    "Type": 2,
+    "Yomi": "サミュエル・B・ロバーツ"
+  },
+  {
+    "Id": 562,
+    "AfterShip": 689,
+    "Name": "Johnston",
+    "Type": 2,
+    "Yomi": "ジョンストン"
+  },
+  {
+    "Id": 563,
+    "AfterShip": 0,
+    "Name": "巻雲改二",
+    "Type": 2,
+    "Yomi": "まきぐも"
+  },
+  {
+    "Id": 564,
+    "AfterShip": 0,
+    "Name": "風雲改二",
+    "Type": 2,
+    "Yomi": "かざぐも"
+  },
+  {
+    "Id": 565,
+    "AfterShip": 685,
+    "Name": "福江",
+    "Type": 1,
+    "Yomi": "ふかえ"
+  },
+  {
+    "Id": 566,
+    "AfterShip": 0,
+    "Name": "陽炎改二",
+    "Type": 2,
+    "Yomi": "かげろう"
+  },
+  {
+    "Id": 567,
+    "AfterShip": 0,
+    "Name": "不知火改二",
+    "Type": 2,
+    "Yomi": "しらぬい"
+  },
+  {
+    "Id": 568,
+    "AfterShip": 0,
+    "Name": "黒潮改二",
+    "Type": 2,
+    "Yomi": "くろしお"
+  },
+  {
+    "Id": 571,
+    "AfterShip": 576,
+    "Name": "Nelson",
+    "Type": 9,
+    "Yomi": "ネルソン"
+  },
+  {
+    "Id": 573,
+    "AfterShip": 0,
+    "Name": "陸奥改二",
+    "Type": 9,
+    "Yomi": "むつ"
+  },
+  {
+    "Id": 574,
+    "AfterShip": 579,
+    "Name": "Gotland",
+    "Type": 3,
+    "Yomi": "ゴトランド"
+  },
+  {
+    "Id": 575,
+    "AfterShip": 580,
+    "Name": "Maestrale",
+    "Type": 2,
+    "Yomi": "マエストラーレ"
+  },
+  {
+    "Id": 576,
+    "AfterShip": 0,
+    "Name": "Nelson改",
+    "Type": 9,
+    "Yomi": "ネルソン"
+  },
+  {
+    "Id": 579,
+    "AfterShip": 0,
+    "Name": "Gotland改",
+    "Type": 3,
+    "Yomi": "ゴトランド"
+  },
+  {
+    "Id": 580,
+    "AfterShip": 0,
+    "Name": "Maestrale改",
+    "Type": 2,
+    "Yomi": "マエストラーレ"
+  },
+  {
+    "Id": 581,
+    "AfterShip": 690,
+    "Name": "日進",
+    "Type": 16,
+    "Yomi": "にっしん"
+  },
+  {
+    "Id": 583,
+    "AfterShip": 687,
+    "Name": "峯雲",
+    "Type": 2,
+    "Yomi": "みねぐも"
+  },
+  {
+    "Id": 584,
+    "AfterShip": 378,
+    "Name": "八丈",
+    "Type": 1,
+    "Yomi": "はちじょう"
+  },
+  {
+    "Id": 585,
+    "AfterShip": 379,
+    "Name": "石垣",
+    "Type": 1,
+    "Yomi": "いしがき"
+  },
+  {
+    "Id": 586,
+    "AfterShip": 0,
+    "Name": "日進甲",
+    "Type": 16,
+    "Yomi": "にっしん"
+  },
+  {
+    "Id": 590,
+    "AfterShip": 691,
+    "Name": "G.Garibaldi",
+    "Type": 3,
+    "Yomi": "ガルバルディ"
+  },
+  {
+    "Id": 591,
+    "AfterShip": 0,
+    "Name": "金剛改二丙",
+    "Type": 8,
+    "Yomi": "こんごう"
+  },
+  {
+    "Id": 594,
+    "AfterShip": 599,
+    "Name": "赤城改二",
+    "Type": 11,
+    "Yomi": "あかぎ"
+  },
+  {
+    "Id": 596,
+    "AfterShip": 692,
+    "Name": "Fletcher",
+    "Type": 2,
+    "Yomi": "フレッチャー"
+  },
+  {
+    "Id": 599,
+    "AfterShip": 594,
+    "Name": "赤城改二戊",
+    "Type": 11,
+    "Yomi": "あかぎ"
+  },
+  {
+    "Id": 601,
+    "AfterShip": 1496,
+    "Name": "Colorado",
+    "Type": 9,
+    "Yomi": "コロラド"
+  },
+  {
+    "Id": 605,
+    "AfterShip": 539,
+    "Name": "Luigi Torelli改",
+    "Type": 13,
+    "Yomi": "ルイージ・トレッリ"
+  },
+  {
+    "Id": 606,
+    "AfterShip": 0,
+    "Name": "伊400改",
+    "Type": 14,
+    "Yomi": "い400"
+  },
+  {
+    "Id": 678,
+    "AfterShip": 0,
+    "Name": "日振改",
+    "Type": 1,
+    "Yomi": "ひぶり"
+  },
+  {
+    "Id": 679,
+    "AfterShip": 0,
+    "Name": "大東改",
+    "Type": 1,
+    "Yomi": "だいとう"
+  },
+  {
+    "Id": 680,
+    "AfterShip": 0,
+    "Name": "浜波改",
+    "Type": 2,
+    "Yomi": "はまなみ"
+  },
+  {
+    "Id": 681,
+    "AfterShip": 0,
+    "Name": "Samuel B.Roberts改",
+    "Type": 2,
+    "Yomi": "サミュエル・B・ロバーツ"
+  },
+  {
+    "Id": 685,
+    "AfterShip": 0,
+    "Name": "福江改",
+    "Type": 1,
+    "Yomi": "ふかえ"
+  },
+  {
+    "Id": 686,
+    "AfterShip": 0,
+    "Name": "岸波改",
+    "Type": 2,
+    "Yomi": "きしなみ"
+  },
+  {
+    "Id": 687,
+    "AfterShip": 0,
+    "Name": "峯雲改",
+    "Type": 2,
+    "Yomi": "みねぐも"
+  },
+  {
+    "Id": 688,
+    "AfterShip": 0,
+    "Name": "早波改",
+    "Type": 2,
+    "Yomi": "はやなみ"
+  },
+  {
+    "Id": 689,
+    "AfterShip": 0,
+    "Name": "Johnston改",
+    "Type": 2,
+    "Yomi": "ジョンストン"
+  },
+  {
+    "Id": 690,
+    "AfterShip": 586,
+    "Name": "日進改",
+    "Type": 16,
+    "Yomi": "にっしん"
+  },
+  {
+    "Id": 691,
+    "AfterShip": 0,
+    "Name": "G.Garibaldi改",
+    "Type": 3,
+    "Yomi": "ガルバルディ"
+  },
+  {
+    "Id": 692,
+    "AfterShip": 0,
+    "Name": "Fletcher改",
+    "Type": 2,
+    "Yomi": "フレッチャー"
+  },
+  {
+    "Id": 1496,
+    "AfterShip": 0,
+    "Name": "Colorado改",
+    "Type": 9,
+    "Yomi": "コロラド"
+  }
+]
