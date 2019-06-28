@@ -9,3 +9,22 @@
 | [PrimeNumber](src/PrimeNumber) |  初級  | [素数](https://ja.wikipedia.org/wiki/%E7%B4%A0%E6%95%B0)を数えて落ち着こう。 |
 | [ShipCollection](src/ShipCollection) |  中級  | 艦隊をコレクションする的なゲームを模した問題。無関係だけど[これ](http://games.dmm.com/detail/kancolle/)とかやっておくとイメージしやすいかも？無関係だけど！ |
 
+## 実行環境
+
+* Visual Studio 2019
+* .NET Core 2.1
+
+## テスト
+
+* 各フォルダーのソリューションファイル（*.sln）を開いて、ソリューションをビルドする。
+* 「テスト エクスプローラー」が表示されていない場合、「テスト」メニューから「ウィンドウ」->「テスト エクスプローラー」を選択。(既に表示されている場合は次へ)
+
+![](ShowTestExproler.png)
+
+* 「テスト エクスプローラー」を開いて「すべてを実行」をクリック。
+
+![](ExecuteTest.png)
+
+* 図のようにテストが失敗するので、コメントの指示に従って問題のコードを実装し、テストが通るようにする。
+
+![](Failed.png)
