@@ -9,7 +9,7 @@
 | [PrimeNumber](src/PrimeNumber) |  初級  | [素数](https://ja.wikipedia.org/wiki/%E7%B4%A0%E6%95%B0)を数えて落ち着こう。 |
 | [ShipCollection](src/ShipCollection) |  中級  | 艦隊をコレクションする的なゲームを模した問題。無関係だけど[これ](http://games.dmm.com/detail/kancolle/)とかやっておくとイメージしやすいかも？無関係だけど！ |
 | [ValuePackage](src/ValuePackage) |  初級  | 型変換と論理演算・ビットシフトの問題。 |
-| [Reversi](src/Reversi) |  上級  | オセロゲームを作る。ルールは[ここ](https://ja.wikipedia.org/wiki/%E3%82%AA%E3%82%BB%E3%83%AD_(%E9%81%8A%E6%88%AF)) の「基本的なルール」に従う。|
+| [Reversi](src/Reversi) |  上級  | オセロゲームを作る。ルールは[ここ](https://ja.wikipedia.org/wiki/%E3%82%AA%E3%82%BB%E3%83%AD_(%E9%81%8A%E6%88%AF))の「基本的なルール」に従う。|
 
 ## 実行環境
 
