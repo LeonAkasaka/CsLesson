@@ -15,12 +15,21 @@ namespace ValuePackageUnitTest
             // 取り急ぎ、楽をしたいので適当な値使う。
             for (var i = 0; i < 1000; i++)
             {
-                var s1 = (short)random.Next(short.MinValue, short.MinValue);
-                var s2 = (short)random.Next(short.MinValue, short.MinValue);
+                var s1 = (short)random.Next(short.MinValue, short.MaxValue);
+                var s2 = (short)random.Next(short.MinValue, short.MaxValue);
                 var value = Value.Pack(s1, s2);
                 var result = Value.UnpackToShort(value);
                 Assert.Equal((s1, s2), result);
             }
+
+            // 最小値と最大値でテスト。
+            var minValue = Value.Pack(short.MinValue, short.MinValue);
+            var minResult = Value.UnpackToShort(minValue);
+            Assert.Equal((short.MinValue, short.MinValue), minResult);
+
+            var maxValue = Value.Pack(short.MaxValue, short.MaxValue);
+            var maxResult = Value.UnpackToShort(maxValue);
+            Assert.Equal((short.MaxValue, short.MaxValue), maxResult);
         }
 
         [Fact]
