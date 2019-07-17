@@ -14,9 +14,9 @@ namespace Minesweeper
         /// true なら地雷がある、そうでなければ地雷がない。
         /// <code>cells[row, column]</code> の周辺8マスの地雷数を数える。
         /// </remarks>
-        /// <param name="cells">行・列順の地雷があるかどうかの2次元配列。</param>
-        /// <param name="row">セルの行番号。</param>
-        /// <param name="column">セルの列番号。</param>
+        /// <param name="cells">行・列順の地雷があるかどうかの2次元配列。null の場合 <see cref="ArgumentNullException"/> 例外が発生する。</param>
+        /// <param name="row">セルの行番号。不正な行番号の場合 <see cref="ArgumentOutOfRangeException"/> 例外が発生する。</param>
+        /// <param name="column">セルの列番号。不正な列番号の場合 <see cref="ArgumentOutOfRangeException"/> 例外が発生する。</param>
         /// <returns>隣接する8マスの地雷数。</returns>
         public static int Count(bool[,] cells, int row, int column)
         {
