@@ -25,7 +25,7 @@ namespace MinesweeperUnitTest
             var mine = new bool[,] { { true } };
             Assert.Equal(-1, Game.Count(mine, 0, 0));
 
-            var none = new bool[,] { { true } };
+            var none = new bool[,] { { false } };
             Assert.Equal(0, Game.Count(none, 0, 0));
         }
 
