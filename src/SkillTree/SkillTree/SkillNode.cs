@@ -14,15 +14,26 @@ namespace Skills
         public SkillMaster Skill { get; }
 
         /// <summary>
+        /// 子スキル解放パネル。
+        /// </summary>
+        public SkillNode[] Children { get; }
+
+        /// <summary>
         /// 解放済みスキルかどうか。
         /// true なら解放済み、そうでなければ未開放。
         /// </summary>
         public bool IsOpened { get; private set; }
 
         /// <summary>
-        /// 子スキル解放パネル。
+        /// コンストラクター。
         /// </summary>
-        public SkillNode[] Children { get; }
+        /// <param name="skill">スキル。</param>
+        /// <param name="children">子スキル解放パネル。</param>
+        public SkillNode(SkillMaster skill, SkillNode[] children)
+        {
+            Skill = skill ?? throw new ArgumentNullException(nameof(skill));
+            Children = children ?? throw new ArgumentNullException(nameof(children));
+        }
 
         /// <summary>
         /// スキルを解放する。

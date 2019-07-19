@@ -11,7 +11,7 @@ namespace Skills
         /// <summary>
         /// スキル解放ポイント。
         /// </summary>
-        public int SkillPoint { get; private set; }
+        public int SkillPoint { get; set; }
 
         /// <summary>
         /// ルートスキルパネル。
@@ -38,6 +38,15 @@ namespace Skills
             {
                 throw new NotImplementedException();
             }
+        }
+
+        /// <summary>
+        /// コンストラクター。
+        /// </summary>
+        /// <param name="rootSkill"></param>
+        public SkillTree(SkillNode rootSkill)
+        {
+            RootSkill = rootSkill ?? throw new ArgumentNullException(nameof(rootSkill));
         }
 
         /// <summary>
