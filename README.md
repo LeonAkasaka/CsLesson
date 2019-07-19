@@ -10,6 +10,8 @@
 | [ShipCollection](src/ShipCollection) |  中級  | 艦隊をコレクションする的なゲームを模した問題。無関係だけど[これ](http://games.dmm.com/detail/kancolle/)とかやっておくとイメージしやすいかも？無関係だけど！ |
 | [ValuePackage](src/ValuePackage) |  初級  | 型変換と論理演算・ビットシフトの問題。 |
 | [Reversi](src/Reversi) |  上級  | オセロゲームを作る。ルールは[ここ](https://ja.wikipedia.org/wiki/%E3%82%AA%E3%82%BB%E3%83%AD_(%E9%81%8A%E6%88%AF))の「基本的なルール」に従う。|
+| [Minesweeper](src/Minesweeper) | 初級 | マインスイーパー。周囲の地雷の数を数える。 |
+| [TimeCalc](src/TimeCalc) | 初級 | 時間計算。
 
 ## 実行環境
 
