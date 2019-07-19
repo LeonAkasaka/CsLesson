@@ -28,6 +28,12 @@ namespace Skills
         /// コンストラクター。
         /// </summary>
         /// <param name="skill">スキル。</param>
+        public SkillNode(SkillMaster skill) : this(skill, Array.Empty<SkillNode>()) { }
+
+        /// <summary>
+        /// コンストラクター。
+        /// </summary>
+        /// <param name="skill">スキル。</param>
         /// <param name="children">子スキル解放パネル。</param>
         public SkillNode(SkillMaster skill, SkillNode[] children)
         {
