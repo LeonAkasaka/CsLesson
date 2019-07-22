@@ -5,7 +5,7 @@ namespace Skills
     /// <summary>
     /// スキルツリー内のスキル解放パネル。
     /// </summary>
-    public class SkillNode
+    public abstract class SkillNode
     {
         /// <summary>
         /// スキル。
@@ -15,34 +15,36 @@ namespace Skills
         /// <summary>
         /// 子スキル解放パネル。
         /// </summary>
-        public SkillNode[] Children { get; }
+        public abstract SkillNode[] Children { get; }
 
         /// <summary>
         /// 解放済みスキルかどうか。
         /// true なら解放済み、そうでなければ未開放。
         /// </summary>
-        public bool IsOpened { get; private set; }
-
-        /// <summary>
-        /// コンストラクター。
-        /// </summary>
-        /// <param name="skill">スキル。</param>
-        public SkillNode(SkillMaster skill) : this(skill, Array.Empty<SkillNode>()) { }
+        public bool IsOpened { get; protected set; }
 
         /// <summary>
         /// コンストラクター。
         /// </summary>
         /// <param name="skill">スキル。</param>
         /// <param name="children">子スキル解放パネル。</param>
-        public SkillNode(SkillMaster skill, SkillNode[] children)
+        public SkillNode(SkillMaster skill)
         {
             Skill = skill ?? throw new ArgumentNullException(nameof(skill));
-            Children = children ?? throw new ArgumentNullException(nameof(children));
         }
 
         /// <summary>
-        /// スキルを解放する。
+        /// このスキル解放パネルを開けるかどうか。
         /// </summary>
-        public void Open() => IsOpened = true;
+        /// <returns>このスキル解放パネルを開ければ true。そうでなければ false。</returns>
+        public abstract bool CanOpen();
+
+        /// <summary>
+        /// このスキル解放パネルを開く。
+        /// </summary>
+        /// <remarks>
+        /// スキル解放パネルを開けない場合は <see cref="InvalidOperationException"/> 例外が発生する。
+        /// </remarks>
+        public abstract void Open();
     }
 }

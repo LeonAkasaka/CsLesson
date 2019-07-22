@@ -16,7 +16,17 @@ namespace Skills
         /// <summary>
         /// ルートスキルパネル。
         /// </summary>
-        public SkillNode RootSkill { get; }
+        public SkillNode RootSkill { get;  }
+
+        /// <summary>
+        /// コンストラクター。
+        /// </summary>
+        /// <param name="data">スキルツリー生成データ。</param>
+        /// <param name="masters">スキルマスター一覧。</param>
+        public SkillTree(SkillTreeData data, SkillMaster[] masters)
+        {
+            throw new NotImplementedException();
+        }
 
         /// <summary>
         /// このスキルツリー内のスキル解放パネルの数。
@@ -41,15 +51,6 @@ namespace Skills
         }
 
         /// <summary>
-        /// コンストラクター。
-        /// </summary>
-        /// <param name="rootSkill"></param>
-        public SkillTree(SkillNode rootSkill)
-        {
-            RootSkill = rootSkill ?? throw new ArgumentNullException(nameof(rootSkill));
-        }
-
-        /// <summary>
         /// スキル解放パネルを検索する。
         /// </summary>
         /// <param name="skill"></param>
@@ -65,26 +66,6 @@ namespace Skills
         /// <param name="skill"></param>
         /// <returns></returns>
         public IEnumerable<SkillNode> FindNodes(SkillMaster skill)
-        {
-            throw new NotImplementedException();
-        }
-
-        /// <summary>
-        /// 指定のスキル解放パネルを開けるかどうか。
-        /// </summary>
-        /// <param name="node"></param>
-        /// <returns></returns>
-        public bool CanOpen(SkillNode node)
-        {
-            throw new NotImplementedException();
-        }
-
-        /// <summary>
-        /// 指定のスキル解放パネルを開く。
-        /// </summary>
-        /// <param name="node"></param>
-        /// <returns></returns>
-        public IEnumerable<SkillNode> Open(SkillNode node)
         {
             throw new NotImplementedException();
         }

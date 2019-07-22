@@ -1,6 +1,7 @@
 using Skills;
 using System;
 using System.Collections.Generic;
+using System.Linq;
 using Xunit;
 
 namespace SkillTreeUnitTest
@@ -37,12 +38,28 @@ namespace SkillTreeUnitTest
             new ActiveSkillMaster(102, "ほわっとスマイル+", 50),
         };
 
+        [Fact]
+        public void CtorTest()
+        {
+            // null 例外
+            Assert.Throws<ArgumentNullException>(() => new SkillTree(null, null));
+            Assert.Throws<ArgumentNullException>(() => new SkillTree(null, Masters));
+            Assert.Throws<ArgumentNullException>(() => new SkillTree(new SkillTreeData(1), null));
+
+            // 存在しない ID を指定した。
+            Assert.Throws<ArgumentException>(() => new SkillTree(new SkillTreeData(0), Masters));
+
+            var id = Masters[0].Id;
+            var i = new SkillTree(new SkillTreeData(id), Masters);
+            Assert.Equal(id, i.RootSkill.Skill.Id);
+        }
+
         public static IEnumerable<object[]> GetCountTestData
         {
             get
             {
-                var m = Masters[0];
-                yield return new object[] { new SkillTree(new SkillNode(m)), 0 };
+                var ids = Masters.Select(x => x.Id).ToArray();
+                yield return new object[] { new SkillTree(new SkillTreeData(ids[0]), Masters), 1 };
             }
         }
 
