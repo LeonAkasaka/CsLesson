@@ -60,6 +60,29 @@ namespace SkillTreeUnitTest
             {
                 var ids = Masters.Select(x => x.Id).ToArray();
                 yield return new object[] { new SkillTree(new SkillTreeData(ids[0]), Masters), 1 };
+                yield return new object[] { new SkillTree(new SkillTreeData(ids[0], ids[1]), Masters), 2 };
+                yield return new object[] { new SkillTree(new SkillTreeData(ids[0], ids[1], ids[2]), Masters), 3 };
+
+
+                yield return new object[]
+                {
+                    new SkillTree(
+                        new SkillTreeData(ids[0],
+                            new SkillTreeData(ids[1]),
+                            new SkillTreeData(ids[2])
+                        ), Masters
+                    ), 3
+                };
+
+                yield return new object[]
+                {
+                    new SkillTree(
+                        new SkillTreeData(ids[0],
+                            new SkillTreeData(ids[1], ids[2], ids[3]),
+                            new SkillTreeData(ids[4], ids[5])
+                        ), Masters
+                    ), 6
+                };
             }
         }
 
@@ -70,20 +93,32 @@ namespace SkillTreeUnitTest
             Assert.Equal(expected, tree.Count);
         }
 
-        [Fact]
-        public void OpenedSkillsTest()
+        public static IEnumerable<object[]> GetOpenedSkillsTestData
+        {
+            get
+            {
+                yield return new object[] { };
+            }
+        }
+
+        [Theory]
+        [MemberData(nameof(GetOpenedSkillsTestData))]
+        public void OpenedSkillsTest(SkillTree tree, SkillMaster[] expected)
         {
 
         }
 
-        [Fact]
-        public void FindNodeTest()
+        public static IEnumerable<object[]> GetFindNodesTestData
         {
-
+            get
+            {
+                yield return new object[] { };
+            }
         }
 
-        [Fact]
-        public void FindNodesTest()
+        [Theory]
+        [MemberData(nameof(GetFindNodesTestData))]
+        public void FindNodesTest(SkillTree tree, SkillNode[] expected)
         {
 
         }
