@@ -40,7 +40,7 @@ namespace Skills
         /// </summary>
         /// <param name="skillMasterId">スキルID。</param>
         /// <param name="children">子ノードの一覧。</param>
-        public SkillTreeData(int skillMasterId, SkillTreeData[] children)
+        public SkillTreeData(int skillMasterId, params SkillTreeData[] children)
         {
             SkillMasterId = skillMasterId;
             Children = children ?? throw new ArgumentNullException(nameof(children));
