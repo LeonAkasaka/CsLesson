@@ -55,16 +55,6 @@ namespace Skills
         /// </summary>
         /// <param name="skill"></param>
         /// <returns></returns>
-        public SkillNode FindNode(SkillMaster skill)
-        {
-            throw new NotImplementedException();
-        }
-
-        /// <summary>
-        /// スキル解放パネルを検索する。
-        /// </summary>
-        /// <param name="skill"></param>
-        /// <returns></returns>
         public IEnumerable<SkillNode> FindNodes(SkillMaster skill)
         {
             throw new NotImplementedException();
