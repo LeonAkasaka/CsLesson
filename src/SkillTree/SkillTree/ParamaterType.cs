@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace Skills
+﻿namespace Skills
 {
     /// <summary>
     /// パラメーターの種類。

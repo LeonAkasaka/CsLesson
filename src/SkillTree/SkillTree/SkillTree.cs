@@ -16,14 +16,20 @@ namespace Skills
         /// <summary>
         /// ルートスキルパネル。
         /// </summary>
-        public SkillNode RootSkill { get;  }
+        public ISkillPanel RootSkill
+        {
+            get
+            {
+                throw new NotImplementedException();
+            }
+        }
 
         /// <summary>
         /// コンストラクター。
         /// </summary>
-        /// <param name="data">スキルツリー生成データ。</param>
+        /// <param name="data">スキルツリーのルートノード。</param>
         /// <param name="masters">スキルマスター一覧。</param>
-        public SkillTree(SkillTreeData data, SkillMaster[] masters)
+        public SkillTree(SkillNode rootNode, SkillMaster[] masters)
         {
             throw new NotImplementedException();
         }
@@ -55,7 +61,7 @@ namespace Skills
         /// </summary>
         /// <param name="skill"></param>
         /// <returns></returns>
-        public IEnumerable<SkillNode> FindNodes(SkillMaster skill)
+        public IEnumerable<ISkillPanel> FindPanels(SkillMaster skill)
         {
             throw new NotImplementedException();
         }

@@ -44,13 +44,13 @@ namespace SkillTreeUnitTest
             // null ó·äO
             Assert.Throws<ArgumentNullException>(() => new SkillTree(null, null));
             Assert.Throws<ArgumentNullException>(() => new SkillTree(null, Masters));
-            Assert.Throws<ArgumentNullException>(() => new SkillTree(new SkillTreeData(1), null));
+            Assert.Throws<ArgumentNullException>(() => new SkillTree(new SkillNode(1), null));
 
             // ë∂ç›ÇµÇ»Ç¢ ID ÇéwíËÇµÇΩÅB
-            Assert.Throws<ArgumentException>(() => new SkillTree(new SkillTreeData(0), Masters));
+            Assert.Throws<ArgumentException>(() => new SkillTree(new SkillNode(0), Masters));
 
             var id = Masters[0].Id;
-            var i = new SkillTree(new SkillTreeData(id), Masters);
+            var i = new SkillTree(new SkillNode(id), Masters);
             Assert.Equal(id, i.RootSkill.Skill.Id);
         }
 
@@ -59,17 +59,17 @@ namespace SkillTreeUnitTest
             get
             {
                 var ids = Masters.Select(x => x.Id).ToArray();
-                yield return new object[] { new SkillTree(new SkillTreeData(ids[0]), Masters), 1 };
-                yield return new object[] { new SkillTree(new SkillTreeData(ids[0], ids[1]), Masters), 2 };
-                yield return new object[] { new SkillTree(new SkillTreeData(ids[0], ids[1], ids[2]), Masters), 3 };
+                yield return new object[] { new SkillTree(new SkillNode(ids[0]), Masters), 1 };
+                yield return new object[] { new SkillTree(new SkillNode(ids[0], ids[1]), Masters), 2 };
+                yield return new object[] { new SkillTree(new SkillNode(ids[0], ids[1], ids[2]), Masters), 3 };
 
 
                 yield return new object[]
                 {
                     new SkillTree(
-                        new SkillTreeData(ids[0],
-                            new SkillTreeData(ids[1]),
-                            new SkillTreeData(ids[2])
+                        new SkillNode(ids[0],
+                            new SkillNode(ids[1]),
+                            new SkillNode(ids[2])
                         ), Masters
                     ), 3
                 };
@@ -77,9 +77,9 @@ namespace SkillTreeUnitTest
                 yield return new object[]
                 {
                     new SkillTree(
-                        new SkillTreeData(ids[0],
-                            new SkillTreeData(ids[1], ids[2], ids[3]),
-                            new SkillTreeData(ids[4], ids[5])
+                        new SkillNode(ids[0],
+                            new SkillNode(ids[1], ids[2], ids[3]),
+                            new SkillNode(ids[4], ids[5])
                         ), Masters
                     ), 6
                 };

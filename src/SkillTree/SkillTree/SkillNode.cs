@@ -1,50 +1,50 @@
 ﻿using System;
+using System.Linq;
 
 namespace Skills
 {
     /// <summary>
-    /// スキルツリー内のスキル解放パネル。
+    /// スキルノード。
     /// </summary>
-    public abstract class SkillNode
+    public class SkillNode
     {
         /// <summary>
-        /// スキル。
+        /// このノードの <see cref="SkillMaster.Id"/> に対応する値。
         /// </summary>
-        public SkillMaster Skill { get; }
+        public int SkillMasterId { get; }
 
         /// <summary>
-        /// 子スキル解放パネル。
+        /// 子スキルノード。
         /// </summary>
-        public abstract SkillNode[] Children { get; }
-
-        /// <summary>
-        /// 解放済みスキルかどうか。
-        /// true なら解放済み、そうでなければ未開放。
-        /// </summary>
-        public bool IsOpened { get; protected set; }
+        public SkillNode[] Children { get; }
 
         /// <summary>
         /// コンストラクター。
         /// </summary>
-        /// <param name="skill">スキル。</param>
-        /// <param name="children">子スキル解放パネル。</param>
-        public SkillNode(SkillMaster skill)
+        /// <param name="skillMasterId">スキルID。</param>
+        public SkillNode(int skillMasterId) : this(skillMasterId, Array.Empty<SkillNode>())
         {
-            Skill = skill ?? throw new ArgumentNullException(nameof(skill));
+
         }
 
         /// <summary>
-        /// このスキル解放パネルを開けるかどうか。
+        /// コンストラクター。
         /// </summary>
-        /// <returns>このスキル解放パネルを開ければ true。そうでなければ false。</returns>
-        public abstract bool CanOpen();
+        /// <param name="skillMasterId">スキルID。</param>
+        /// <param name="children">子ノードのスキルID一覧。</param>
+        public SkillNode(int skillMasterId, params int[] children) : this(skillMasterId, children.Select(x => new SkillNode(x)).ToArray())
+        {
+        }
 
         /// <summary>
-        /// このスキル解放パネルを開く。
+        /// コンストラクター。
         /// </summary>
-        /// <remarks>
-        /// スキル解放パネルを開けない場合は <see cref="InvalidOperationException"/> 例外が発生する。
-        /// </remarks>
-        public abstract void Open();
+        /// <param name="skillMasterId">スキルID。</param>
+        /// <param name="children">子スキルノードの一覧。</param>
+        public SkillNode(int skillMasterId, params SkillNode[] children)
+        {
+            SkillMasterId = skillMasterId;
+            Children = children ?? throw new ArgumentNullException(nameof(children));
+        }
     }
 }
