@@ -41,7 +41,7 @@ public class EnhancerView : MonoBehaviour
 
     private void Update()
     {
-        _maskObject.SetActive(!_item.IsPurchased && !Game.Instance.CanPurchase(_item.Master));
+        _maskObject.SetActive(_item.IsPurchased || !Game.Instance.CanPurchase(_item.Master));
     }
 
     void Start()
