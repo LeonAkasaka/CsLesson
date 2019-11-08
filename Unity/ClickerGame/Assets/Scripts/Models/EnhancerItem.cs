@@ -1,5 +1,6 @@
 ﻿using ClickerGame.Masters;
 using ClickerGame.Models;
+using System;
 
 /// <summary>
 /// 強化情報。
@@ -19,6 +20,16 @@ public class EnhancerItem
     /// 購入価格。
     /// </summary>
     public Currency Price { get; }
+
+    /// <summary>
+    /// 購入済みかどうか。
+    /// </summary>
+    public bool IsPurchased => Game.Instance.EnhancerInventory.HasEnhancer(Master);
+    
+    /// <summary>
+    /// この強化が購入された。
+    /// </summary>
+    public event Action<EnhancerItem> Purchased;
 
     /// <summary>
     /// コンストラクター。
