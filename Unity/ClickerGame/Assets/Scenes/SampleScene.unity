@@ -1467,6 +1467,7 @@ MonoBehaviour:
   _score: {fileID: 1728118425}
   _scoreButton: {fileID: 1074721185}
   _currencyType: 1
+  _quantity: 1
 --- !u!114 &958371668
 MonoBehaviour:
   m_ObjectHideFlags: 0
