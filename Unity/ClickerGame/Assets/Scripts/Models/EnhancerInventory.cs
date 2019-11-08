@@ -72,5 +72,19 @@ namespace ClickerGame.Models
             if (enhancer == null) { throw new ArgumentNullException(nameof(enhancer)); }
             return enhancer.Price;
         }
+
+        /// <summary>
+        /// 指定のアイテムに対する総強化倍率を取得する。
+        /// </summary>
+        /// <param name="item">アイテムマスター。</param>
+        /// <returns>総強化倍率。</returns>
+        public double GetTotalFactor(ItemMaster item)
+        {
+            if (ItemFactors.TryGetValue(item, out var factor))
+            {
+                return factor;
+            }
+            return 0;
+        }
     }
 }

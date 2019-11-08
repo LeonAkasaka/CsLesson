@@ -63,7 +63,8 @@ namespace ClickerGame.Models
             {
                 foreach (var p in ItemInventory.GetTotalProductivities(item))
                 {
-                    _productivitiesPerSec[p.Type] += p.Quantity;
+                    var f = EnhancerInventory.GetTotalFactor(item);
+                    _productivitiesPerSec[p.Type] += p.Quantity * (1 + f);
                 }
             }
         }

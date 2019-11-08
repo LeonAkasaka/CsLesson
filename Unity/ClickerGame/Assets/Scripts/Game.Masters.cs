@@ -23,8 +23,8 @@ partial class Game
 
         var enhancers = new EnhancerMaster[]
         {
-            new EnhancerMaster("Enhancer1", new Currency(CurrencyType.Gold, 10), items[0], 2),
-            new EnhancerMaster("Enhancer2", new Currency(CurrencyType.Gold, 100), items[1], 2),
+            new EnhancerMaster("Enhancer1", new Currency(CurrencyType.Gold, 10), items[0], 1),
+            new EnhancerMaster("Enhancer2", new Currency(CurrencyType.Gold, 100), items[1], 1),
         };
 
         ItemMasters = items;
