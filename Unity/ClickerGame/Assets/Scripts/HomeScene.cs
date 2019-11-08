@@ -13,6 +13,9 @@ public class HomeScene : MonoBehaviour
     [SerializeField]
     private CurrencyType _currencyType = CurrencyType.None;
 
+    [SerializeField]
+    private double _quantity = 1;
+
     void Start()
     {
         var game = Game.Instance;
@@ -21,7 +24,7 @@ public class HomeScene : MonoBehaviour
         var e = new Button.ButtonClickedEvent();
         e.AddListener(() =>
         {
-            var c = new Currency(_currencyType, 1);
+            var c = new Currency(_currencyType, _quantity);
             var cc = game.CashInventory.Add(c);
         });
         _scoreButton.onClick = e;
