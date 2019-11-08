@@ -55,6 +55,7 @@ public class EnhancerItem
         var game = Game.Instance;
         if (game.TryPurchase(Master))
         {
+            IsPurchased = true;
             Purchased?.Invoke(this);
         }
     }
