@@ -8,7 +8,7 @@ namespace ClickerGame.Models
         private readonly Dictionary<CurrencyType, Currency> _dictionary = new Dictionary<CurrencyType, Currency>();
 
         public IEnumerable<Currency> CachList => _dictionary.Values;
-        
+
         /// <summary>
         /// 通貨に変更があった。
         /// </summary>

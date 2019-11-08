@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace ClickerGame.Models
+﻿namespace ClickerGame.Models
 {
     /// <summary>
     /// 通貨種類。
@@ -36,7 +34,7 @@ namespace ClickerGame.Models
         /// 量。
         /// </summary>
         public double Quantity { get; }
-        
+
         /// <summary>
         /// コンストラクター。
         /// </summary>

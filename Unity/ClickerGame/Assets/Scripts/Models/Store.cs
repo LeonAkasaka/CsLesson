@@ -1,5 +1,4 @@
-﻿using ClickerGame.Masters;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Linq;
 
 namespace ClickerGame.Models

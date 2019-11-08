@@ -19,7 +19,7 @@ public class ItemView : MonoBehaviour
 
     [SerializeField]
     private Text _priceText = null;
-    
+
     [SerializeField]
     private Text _countText = null;
 
@@ -58,7 +58,7 @@ public class ItemView : MonoBehaviour
         {
             _nameText.text = item.Master.Name;
             var price = item.Price;
-            _priceText.text = 
+            _priceText.text =
                 $"{price.Quantity}({price.Type})";
             _countText.text = item.Count.ToString();
         }

@@ -1,5 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Threading.Tasks;
 using UnityEngine;
 
@@ -25,7 +24,7 @@ public class SceneManager : MonoBehaviour
             yield return _enhancerPanel.gameObject;
         }
     }
-    
+
     void Start()
     {
         CurrentScene = Scenes.Home;

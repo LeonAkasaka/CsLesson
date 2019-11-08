@@ -52,7 +52,7 @@ public class ScoreView : MonoBehaviour
         {
             _currency = value;
             var q = _dataSource.GetQuantity(CurrencyType);
-            _scoreText.text =  q.ToString("F") + CurrencyType;
+            _scoreText.text = q.ToString("F") + CurrencyType;
         }
     }
     private Currency _currency;
