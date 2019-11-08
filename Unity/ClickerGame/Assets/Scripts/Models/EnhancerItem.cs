@@ -34,9 +34,8 @@ public class EnhancerItem
     /// <summary>
     /// コンストラクター。
     /// </summary>
-    /// <param name="name">アイテム名。</param>
+    /// <param name="master">強化マスター。</param>
     /// <param name="price">購入価格。</param>
-    /// <param name="productivity">1秒間の生産量。</param>
     public EnhancerItem(EnhancerMaster master, Currency price)
     {
         Master = master;
