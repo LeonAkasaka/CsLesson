@@ -1,9 +1,16 @@
 ﻿using ClickerGame.Masters;
 using ClickerGame.Models;
 
+/// <summary>
+/// 強化情報。
+/// </summary>
+/// <remarks>
+/// アイテムと異なり同じ強化を複数購入することはできない。
+/// 一度購入すると効果が有効になる。
+/// </remarks>
 public class EnhancerItem
 {
-    // <summary>
+    /// <summary>
     /// 強化マスター。
     /// </summary>
     public EnhancerMaster Master { get; }

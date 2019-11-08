@@ -6,6 +6,9 @@ namespace ClickerGame.Models
     /// <summary>
     /// アイテムの情報。
     /// </summary>
+    /// <remarks>
+    /// 同系統の項目を複数購入可能で、所持数に応じて効果が加算されていく想定。
+    /// </remarks>
     public class StoreItem
     {
         /// <summary>
