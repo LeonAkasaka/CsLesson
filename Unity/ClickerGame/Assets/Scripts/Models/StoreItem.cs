@@ -42,5 +42,19 @@ namespace ClickerGame.Models
             Price = price;
             Count = count;
         }
+
+        /// <summary>
+        /// このアイテムの購入を要求する。
+        /// </summary>
+        public void Purchase()
+        {
+            var game = Game.Instance;
+            if (game.TryPurchase(Master))
+            {
+                var inventory = game.ItemInventory;
+                Price = inventory.GetPrice(Master);
+                Count = inventory.GetCount(Master);
+            }
+        }
     }
 }

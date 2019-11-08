@@ -3,6 +3,9 @@ using System;
 using UnityEngine;
 using UnityEngine.UI;
 
+/// <summary>
+/// アイテム情報を表示するビュー。
+/// </summary>
 public class ItemView : MonoBehaviour
 {
     [SerializeField]
@@ -23,6 +26,9 @@ public class ItemView : MonoBehaviour
     [SerializeField]
     private Text _countText = null;
 
+    /// <summary>
+    /// このビューに表示するアイテム情報。
+    /// </summary>
     public StoreItem DataSource
     {
         get => _item;
@@ -45,6 +51,9 @@ public class ItemView : MonoBehaviour
     }
     private StoreItem _item;
 
+    /// <summary>
+    /// アイテムが選択されたときに呼び出されるイベント。
+    /// </summary>
     public event Action<StoreItem> ItemSelected;
 
     private void Update()

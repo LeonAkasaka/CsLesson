@@ -35,13 +35,7 @@ public class StoreScene : MonoBehaviour
 
     private void ItemView_ItemSelected(StoreItem item)
     {
-        var game = Game.Instance;
-        if (game.TryPurchase(item.Master))
-        {
-            var inventory = game.ItemInventory;
-            item.Price = inventory.GetPrice(item.Master);
-            item.Count = inventory.GetCount(item.Master);
-        }
+        item.Purchase();
     }
 
     private void ClearItems()
