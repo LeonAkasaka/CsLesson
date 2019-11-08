@@ -25,6 +25,11 @@ public partial class Game : MonoBehaviour
     private static Game _instance;
 
     /// <summary>
+    /// 生産管理。
+    /// </summary>
+    public Production Production { get; } = new Production(new ItemInventory(), new EnhancerInventory());
+
+    /// <summary>
     /// 通貨用インベントリー。
     /// </summary>
     public CurrencyInventory CashInventory { get; } = new CurrencyInventory();
@@ -32,12 +37,12 @@ public partial class Game : MonoBehaviour
     /// <summary>
     /// アイテム用インベントリー。
     /// </summary>
-    public ItemInventory ItemInventory { get; } = new ItemInventory();
+    public ItemInventory ItemInventory => Production.ItemInventory;
 
     /// <summary>
-    /// 教科用インベントリー。
+    /// 強化用インベントリー。
     /// </summary>
-    public EnhancerInventory EnhancerInventory { get; } = new EnhancerInventory();
+    public EnhancerInventory EnhancerInventory => Production.EnhancerInventory;
 
     /// <summary>
     /// アイテム購入を試みる。
@@ -98,7 +103,7 @@ public partial class Game : MonoBehaviour
 
     private void Update()
     {
-        foreach (var kv in ItemInventory.ProductivitiesPerSec)
+        foreach (var kv in Production.ProductivitiesPerSec)
         {
             CashInventory.Add(kv.Key, kv.Value * Time.deltaTime);
         }

@@ -1,7 +1,12 @@
 ﻿using System;
+using System.Collections.Generic;
+using ClickerGame.Masters;
 
 namespace ClickerGame.Models
 {
+    /// <summary>
+    /// 生産管理。
+    /// </summary>
     public class Production : IDisposable
     {
         /// <summary>
@@ -10,32 +15,63 @@ namespace ClickerGame.Models
         public ItemInventory ItemInventory { get; }
 
         /// <summary>
-        /// 教科用インベントリー。
+        /// 強化用インベントリー。
         /// </summary>
         public EnhancerInventory EnhancerInventory { get; }
+
+        /// <summary>
+        /// 1秒間の生産量。
+        /// </summary>
+        public IDictionary<CurrencyType, double> ProductivitiesPerSec => _productivitiesPerSec;
+        private Dictionary<CurrencyType, double> _productivitiesPerSec = new Dictionary<CurrencyType, double>();
 
         /// <summary>
         /// コンストラクター。
         /// </summary>
         /// <param name="itemInventory">アイテム用インベントリー。</param>
-        /// <param name="enhancerInventory">教科用インベントリー。</param>
+        /// <param name="enhancerInventory">強化用インベントリー。</param>
         public Production(ItemInventory itemInventory, EnhancerInventory enhancerInventory)
         {
             ItemInventory = itemInventory ?? throw new ArgumentNullException(nameof(itemInventory));
             EnhancerInventory = enhancerInventory ?? throw new ArgumentNullException(nameof(enhancerInventory));
 
-            ItemInventory.Changed += (_1, _2) => OnProductivityChanged();
-            //EnhancerInventory.Changed += x => OnProductivityChanged();
+            ItemInventory.Changed += ItemInventory_Changed;
+            EnhancerInventory.Added += EnhancerInventory_Added;
+
+            // 辞書の初期化
+            var dic = _productivitiesPerSec;
+            foreach (var key in Enum.GetValues(typeof(CurrencyType)))
+            {
+                dic.Add((CurrencyType)key, 0);
+            }
+            UpdateProductivities();
         }
 
-        private void OnProductivityChanged()
+        private void ItemInventory_Changed(ItemMaster item, int count)
         {
-            throw new NotImplementedException();
+            UpdateProductivities();
+        }
+
+        private void EnhancerInventory_Added(EnhancerMaster enhancer)
+        {
+            UpdateProductivities();
+        }
+
+        private void UpdateProductivities()
+        {
+            foreach (var item in ItemInventory.Items)
+            {
+                foreach (var p in ItemInventory.GetTotalProductivities(item))
+                {
+                    _productivitiesPerSec[p.Type] += p.Quantity;
+                }
+            }
         }
 
         public void Dispose()
         {
-            throw new NotImplementedException();
+            ItemInventory.Changed -= ItemInventory_Changed;
+            EnhancerInventory.Added -= EnhancerInventory_Added;
         }
     }
 }

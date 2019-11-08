@@ -1,6 +1,7 @@
 ﻿using ClickerGame.Masters;
 using System;
 using System.Collections.Generic;
+using System.Linq;
 
 namespace ClickerGame.Models
 {
@@ -9,26 +10,20 @@ namespace ClickerGame.Models
         private readonly Dictionary<ItemMaster, int> _items = new Dictionary<ItemMaster, int>();
 
         /// <summary>
+        /// 所有（数が0以上の）しているアイテム一覧。
+        /// </summary>
+        public IEnumerable<ItemMaster> Items => _items.Keys;
+
+        /// <summary>
         /// アイテムに変更があった。
         /// </summary>
         public Action<ItemMaster, int> Changed;
-
-        /// <summary>
-        /// 1秒間の生産量。
-        /// </summary>
-        public IDictionary<CurrencyType, double> ProductivitiesPerSec => _productivitiesPerSec;
-        private Dictionary<CurrencyType, double> _productivitiesPerSec = new Dictionary<CurrencyType, double>();
 
         /// <summary>
         /// コンストラクター。
         /// </summary>
         public ItemInventory()
         {
-            var dic = _productivitiesPerSec;
-            foreach (var key in Enum.GetValues(typeof(CurrencyType)))
-            {
-                dic.Add((CurrencyType)key, 0);
-            }
         }
 
         /// <summary>
@@ -39,8 +34,7 @@ namespace ClickerGame.Models
         {
             if (item == null) { throw new ArgumentNullException(nameof(item)); }
 
-            var count = 0;
-            if (_items.TryGetValue(item, out count))
+            if (_items.TryGetValue(item, out var count))
             {
                 count++;
                 _items[item] = count;
@@ -49,11 +43,6 @@ namespace ClickerGame.Models
             {
                 count = 1;
                 _items.Add(item, count);
-            }
-
-            foreach (var p in item.Productivities)
-            {
-                _productivitiesPerSec[p.Type] += p.Quantity; ;
             }
             Changed?.Invoke(item, count);
         }
@@ -85,6 +74,20 @@ namespace ClickerGame.Models
 
             var c = GetCount(item);
             return new Currency(item.Price.Type, item.Price.Quantity);
+        }
+
+        /// <summary>
+        /// 指定アイテムの1秒間の総生産量を取得する。
+        /// </summary>
+        /// <param name="item">アイテムマスター。</param>
+        /// <returns>1秒間の総生産量。</returns>
+        public IEnumerable<Currency> GetTotalProductivities(ItemMaster item)
+        {
+            if (_items.TryGetValue(item, out var count))
+            {
+                return item.Productivities.Select(x => new Currency(x.Type, x.Quantity * count));
+            }
+            return Array.Empty<Currency>();
         }
     }
 }

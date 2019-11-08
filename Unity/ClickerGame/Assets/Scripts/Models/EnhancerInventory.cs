@@ -22,9 +22,9 @@ namespace ClickerGame.Models
         private Dictionary<ItemMaster, double> _itemFactors = new Dictionary<ItemMaster, double>();
 
         /// <summary>
-        /// 
+        /// 強化が追加された。
         /// </summary>
-        public event Action Added;
+        public event Action<EnhancerMaster> Added;
 
         public EnhancerInventory()
         {
@@ -48,7 +48,7 @@ namespace ClickerGame.Models
             }
 
             _enhancers.Add(enhancer);
-            Added?.Invoke();
+            Added?.Invoke(enhancer);
         }
 
         /// <summary>
