@@ -33,10 +33,9 @@ public class EnhancerScene : MonoBehaviour
         }
     }
 
-    private void ItemView_ItemSelected(EnhancerItem item)
+    private void ItemView_ItemSelected(EnhancerItem enhancer)
     {
-        var game = Game.Instance;
-        game.TryPurchase(item.Master);
+        enhancer.Purchase();
     }
 
     private void ClearItems()

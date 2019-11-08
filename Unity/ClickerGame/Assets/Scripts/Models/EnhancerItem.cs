@@ -24,7 +24,7 @@ public class EnhancerItem
     /// <summary>
     /// 購入済みかどうか。
     /// </summary>
-    public bool IsPurchased => Game.Instance.EnhancerInventory.HasEnhancer(Master);
+    public bool IsPurchased { get; private set; }
     
     /// <summary>
     /// この強化が購入された。
@@ -41,5 +41,21 @@ public class EnhancerItem
     {
         Master = master;
         Price = price;
+
+        IsPurchased = Game.Instance.EnhancerInventory.HasEnhancer(Master);
+    }
+
+    /// <summary>
+    /// この強化の購入を要求する。
+    /// </summary>
+    public void Purchase()
+    {
+        if (IsPurchased) { return; } // すでに購入済み。
+
+        var game = Game.Instance;
+        if (game.TryPurchase(Master))
+        {
+            Purchased?.Invoke(this);
+        }
     }
 }
