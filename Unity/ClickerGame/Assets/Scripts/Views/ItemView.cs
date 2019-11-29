@@ -1,4 +1,5 @@
-﻿using ClickerGame.Models;
+﻿using ClickerGame.Masters;
+using ClickerGame.Models;
 using System;
 using UnityEngine;
 using UnityEngine.UI;
@@ -36,19 +37,20 @@ public class ItemView : MonoBehaviour
         {
             if (_item != null)
             {
-                _item.PriceChanged -= UpdateDataSource;
-                _item.CountChanged -= UpdateDataSource;
+                _item.PriceChanged -= OnPriceChanged;
+                _item.CountChanged -= OnCounteChanged;
             }
             if (value != null)
             {
-                value.PriceChanged += UpdateDataSource;
-                value.CountChanged += UpdateDataSource;
+                value.PriceChanged += OnPriceChanged;
+                value.CountChanged += OnCounteChanged;
             }
 
             _item = value;
             UpdateDataSource(_item);
         }
     }
+
     private StoreItem _item;
 
     /// <summary>
@@ -60,6 +62,9 @@ public class ItemView : MonoBehaviour
     {
         _maskObject.SetActive(!Game.Instance.CanPurchase(_item.Master));
     }
+
+    private void OnPriceChanged(Merchandise<ItemMaster> merchandise) => UpdateDataSource(DataSource);
+    private void OnCounteChanged(StoreItem item) => UpdateDataSource(DataSource);
 
     private void UpdateDataSource(StoreItem item)
     {
