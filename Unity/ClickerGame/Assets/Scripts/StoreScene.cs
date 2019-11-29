@@ -1,4 +1,6 @@
-﻿using ClickerGame.Models;
+﻿using ClickerGame.Masters;
+using ClickerGame.Models;
+using System.Linq;
 using UnityEngine;
 
 public class StoreScene : MonoBehaviour
@@ -9,7 +11,7 @@ public class StoreScene : MonoBehaviour
     [SerializeField]
     private GameObject _itemsContainer = null;
 
-    public Store DataSource
+    public Store<StoreItem> DataSource
     {
         get => _dataSource;
         set
@@ -18,14 +20,14 @@ public class StoreScene : MonoBehaviour
             UpdateDataSource();
         }
     }
-    private Store _dataSource;
+    private Store<StoreItem> _dataSource;
 
     private void UpdateDataSource()
     {
         ClearItems();
 
         var t = _itemsContainer.transform;
-        foreach (var item in DataSource.Items)
+        foreach (var item in DataSource.Merchandises)
         {
             var itemView = Instantiate(_prefab, t);
             itemView.ItemSelected += ItemView_ItemSelected;
@@ -50,6 +52,9 @@ public class StoreScene : MonoBehaviour
 
     void Start()
     {
-        DataSource = new Store(); // 仮
+        var game = Game.Instance;
+        var inventory = game.ItemInventory;
+        var items = game.ItemMasters.Select(x => new StoreItem(x, inventory.GetPrice(x), inventory.GetCount(x)));
+        DataSource = new Store<StoreItem>(items); // 仮
     }
 }

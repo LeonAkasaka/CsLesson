@@ -1,4 +1,5 @@
 ﻿using ClickerGame.Models;
+using System.Linq;
 using UnityEngine;
 
 public class EnhancerScene : MonoBehaviour
@@ -9,7 +10,7 @@ public class EnhancerScene : MonoBehaviour
     [SerializeField]
     private GameObject _itemsContainer = null;
 
-    public Enhancer DataSource
+    public Store<EnhancerItem> DataSource
     {
         get => _dataSource;
         set
@@ -18,14 +19,14 @@ public class EnhancerScene : MonoBehaviour
             UpdateDataSource();
         }
     }
-    private Enhancer _dataSource;
+    private Store<EnhancerItem> _dataSource;
 
     private void UpdateDataSource()
     {
         ClearItems();
 
         var t = _itemsContainer.transform;
-        foreach (var item in DataSource.Items)
+        foreach (var item in DataSource.Merchandises)
         {
             var itemView = Instantiate(_prefab, t);
             itemView.ItemSelected += ItemView_ItemSelected;
@@ -50,6 +51,9 @@ public class EnhancerScene : MonoBehaviour
 
     void Start()
     {
-        DataSource = new Enhancer(); // 仮
+        var game = Game.Instance;
+        var inventory = game.EnhancerInventory;
+        var enhancers = game.EnhancerMasters.Select(x => new EnhancerItem(x, inventory.GetPrice(x)));
+        DataSource = new Store<EnhancerItem>(enhancers); // 仮
     }
 }
