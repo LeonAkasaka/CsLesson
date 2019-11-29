@@ -53,7 +53,9 @@ public class StoreScene : MonoBehaviour
     {
         var game = Game.Instance;
         var inventory = game.ItemInventory;
-        var items = game.ItemMasters.Select(x => new StoreItem(x, inventory.GetPrice(x), inventory.GetCount(x)));
-        DataSource = new Store<StoreItem>(items); // 仮
+        var items = game.ItemMasters
+            .Select(x => new MerchandiseItem(x, inventory.GetPrice(x), inventory.GetCount(x)))
+            .ToArray();
+        DataSource = new Store<MerchandiseItem>(items); // 仮
     }
 }

@@ -53,7 +53,9 @@ public class EnhancerScene : MonoBehaviour
     {
         var game = Game.Instance;
         var inventory = game.EnhancerInventory;
-        var enhancers = game.EnhancerMasters.Select(x => new EnhancerItem(x, inventory.GetPrice(x)));
-        DataSource = new Store<EnhancerItem>(enhancers); // 仮
+        var enhancers = game.EnhancerMasters
+            .Select(x => new MerchandiseEnhancer(x, inventory.GetPrice(x)))
+            .ToArray();
+        DataSource = new Store<MerchandiseEnhancer>(enhancers); // 仮
     }
 }
