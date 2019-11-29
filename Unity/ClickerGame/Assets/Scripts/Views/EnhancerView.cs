@@ -19,7 +19,7 @@ public class EnhancerView : MonoBehaviour
     [SerializeField]
     private Text _priceText = null;
 
-    public EnhancerItem DataSource
+    public MerchandiseEnhancer DataSource
     {
         get => _item;
         set
@@ -35,9 +35,9 @@ public class EnhancerView : MonoBehaviour
             UpdateDataSource(_item);
         }
     }
-    private EnhancerItem _item;
+    private MerchandiseEnhancer _item;
 
-    public event Action<EnhancerItem> ItemSelected;
+    public event Action<MerchandiseEnhancer> ItemSelected;
 
     private void Update()
     {
@@ -54,7 +54,7 @@ public class EnhancerView : MonoBehaviour
         _button.onClick = e;
     }
 
-    private void UpdateDataSource(EnhancerItem item)
+    private void UpdateDataSource(MerchandiseEnhancer item)
     {
         if (item != null)
         {

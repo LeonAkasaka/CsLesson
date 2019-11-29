@@ -10,7 +10,7 @@ public class EnhancerScene : MonoBehaviour
     [SerializeField]
     private GameObject _itemsContainer = null;
 
-    public Store<EnhancerItem> DataSource
+    public Store<MerchandiseEnhancer> DataSource
     {
         get => _dataSource;
         set
@@ -19,7 +19,7 @@ public class EnhancerScene : MonoBehaviour
             UpdateDataSource();
         }
     }
-    private Store<EnhancerItem> _dataSource;
+    private Store<MerchandiseEnhancer> _dataSource;
 
     private void UpdateDataSource()
     {
@@ -34,7 +34,7 @@ public class EnhancerScene : MonoBehaviour
         }
     }
 
-    private void ItemView_ItemSelected(EnhancerItem enhancer)
+    private void ItemView_ItemSelected(MerchandiseEnhancer enhancer)
     {
         enhancer.Purchase();
     }

@@ -1,5 +1,4 @@
-﻿using ClickerGame.Masters;
-using ClickerGame.Models;
+﻿using ClickerGame.Models;
 using System.Linq;
 using UnityEngine;
 
@@ -11,7 +10,7 @@ public class StoreScene : MonoBehaviour
     [SerializeField]
     private GameObject _itemsContainer = null;
 
-    public Store<StoreItem> DataSource
+    public Store<MerchandiseItem> DataSource
     {
         get => _dataSource;
         set
@@ -20,7 +19,7 @@ public class StoreScene : MonoBehaviour
             UpdateDataSource();
         }
     }
-    private Store<StoreItem> _dataSource;
+    private Store<MerchandiseItem> _dataSource;
 
     private void UpdateDataSource()
     {
@@ -35,7 +34,7 @@ public class StoreScene : MonoBehaviour
         }
     }
 
-    private void ItemView_ItemSelected(StoreItem item)
+    private void ItemView_ItemSelected(MerchandiseItem item)
     {
         item.Purchase();
     }

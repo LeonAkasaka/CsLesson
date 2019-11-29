@@ -30,7 +30,7 @@ public class ItemView : MonoBehaviour
     /// <summary>
     /// このビューに表示するアイテム情報。
     /// </summary>
-    public StoreItem DataSource
+    public MerchandiseItem DataSource
     {
         get => _item;
         set
@@ -51,12 +51,12 @@ public class ItemView : MonoBehaviour
         }
     }
 
-    private StoreItem _item;
+    private MerchandiseItem _item;
 
     /// <summary>
     /// アイテムが選択されたときに呼び出されるイベント。
     /// </summary>
-    public event Action<StoreItem> ItemSelected;
+    public event Action<MerchandiseItem> ItemSelected;
 
     private void Update()
     {
@@ -64,9 +64,9 @@ public class ItemView : MonoBehaviour
     }
 
     private void OnPriceChanged(Merchandise<ItemMaster> merchandise) => UpdateDataSource(DataSource);
-    private void OnCounteChanged(StoreItem item) => UpdateDataSource(DataSource);
+    private void OnCounteChanged(MerchandiseItem item) => UpdateDataSource(DataSource);
 
-    private void UpdateDataSource(StoreItem item)
+    private void UpdateDataSource(MerchandiseItem item)
     {
         if (item != null)
         {
