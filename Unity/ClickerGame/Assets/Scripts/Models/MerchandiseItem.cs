@@ -16,6 +16,10 @@ namespace ClickerGame.Models
         /// </summary>
         public int Count { get => _count; set { _count = value; CountChanged?.Invoke(this); } }
         private int _count;
+
+        /// <summary>
+        /// <see cref="Count" /> が変更されたときに発生するイベント。
+        /// </summary>
         public event Action<MerchandiseItem> CountChanged;
 
         /// <summary>

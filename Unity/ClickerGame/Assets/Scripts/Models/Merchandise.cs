@@ -18,6 +18,10 @@ namespace ClickerGame.Models
         /// </summary>
         public Currency Price { get => _currency; set { _currency = value; PriceChanged?.Invoke(this); } }
         private Currency _currency;
+
+        /// <summary>
+        /// <see cref="Price" /> が変更されたときに発生するイベント。
+        /// </summary>
         public event Action<Merchandise<TMaster>> PriceChanged;
 
         /// <summary>
