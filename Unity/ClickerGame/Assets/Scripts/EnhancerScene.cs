@@ -30,7 +30,7 @@ public class EnhancerScene : MonoBehaviour
         {
             var itemView = Instantiate(_prefab, t);
             itemView.ItemSelected += ItemView_ItemSelected;
-            itemView.DataSource = item;
+            itemView.Merchandise = item;
         }
     }
 

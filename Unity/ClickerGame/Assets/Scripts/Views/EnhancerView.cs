@@ -5,5 +5,5 @@ using UnityEngine.UI;
 
 public class EnhancerView : MerchandiseView<MerchandiseEnhancer>
 {
-    protected override bool CanPurchase => DataSource.IsPurchased || !Game.Instance.CanPurchase(DataSource.Master);
+    protected override bool CanPurchase => Merchandise.IsPurchased || !Game.Instance.CanPurchase(Merchandise.Master);
 }

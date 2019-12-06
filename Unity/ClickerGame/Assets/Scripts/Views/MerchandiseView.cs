@@ -21,7 +21,10 @@ public abstract class MerchandiseView<TMerchandise> : MonoBehaviour
     [SerializeField]
     private Text _priceText = null;
 
-    public TMerchandise DataSource
+    /// <summary>
+    /// 商品データ。
+    /// </summary>
+    public TMerchandise Merchandise
     {
         get => _item;
         set
@@ -36,7 +39,7 @@ public abstract class MerchandiseView<TMerchandise> : MonoBehaviour
             }
 
             _item = value;
-            OnDataSourceChanged();
+            OnMerchandiseChanged();
         }
     }
 
@@ -85,18 +88,18 @@ public abstract class MerchandiseView<TMerchandise> : MonoBehaviour
         merchandise.PriceChanged -= OnPriceChanged;
     }
 
-    private void OnPriceChanged(Merchandise merchandise) => OnDataSourceChanged();
+    private void OnPriceChanged(Merchandise merchandise) => OnMerchandiseChanged();
 
     /// <summary>
-    /// <see cref="DataSource" /> が更新されたので画面を再構築する。
+    /// <see cref="Merchandise" /> が更新されたので画面を再構築する。
     /// </summary>
-    protected virtual void OnDataSourceChanged()
+    protected virtual void OnMerchandiseChanged()
     {
-        if (DataSource != null)
+        if (Merchandise != null)
         {
-            _nameText.text = DataSource.Name;
+            _nameText.text = Merchandise.Name;
 
-            var price = DataSource.Price;
+            var price = Merchandise.Price;
             _priceText.text =
                 $"{price.Quantity}({price.Type})";
         }

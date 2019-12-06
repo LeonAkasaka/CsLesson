@@ -12,7 +12,7 @@ public class ItemView : MerchandiseView<MerchandiseItem>
     [SerializeField]
     private Text _countText = null;
 
-    protected override bool CanPurchase => !Game.Instance.CanPurchase(DataSource.Master);
+    protected override bool CanPurchase => !Game.Instance.CanPurchase(Merchandise.Master);
 
     protected override void OnInitialize(MerchandiseItem merchandise)
     {
@@ -25,15 +25,15 @@ public class ItemView : MerchandiseView<MerchandiseItem>
         merchandise.CountChanged -= OnCounteChanged;
     }
 
-    private void OnCounteChanged(MerchandiseItem merchandise) => OnDataSourceChanged();
+    private void OnCounteChanged(MerchandiseItem merchandise) => OnMerchandiseChanged();
 
-    protected override void OnDataSourceChanged()
+    protected override void OnMerchandiseChanged()
     {
-        base.OnDataSourceChanged();
+        base.OnMerchandiseChanged();
 
-        if (DataSource != null)
+        if (Merchandise != null)
         {
-            _countText.text = DataSource.Count.ToString();
+            _countText.text = Merchandise.Count.ToString();
         }
         else
         {
