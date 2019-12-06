@@ -1,6 +1,4 @@
-﻿using ClickerGame.Masters;
-using ClickerGame.Models;
-using System;
+﻿using ClickerGame.Models;
 using UnityEngine;
 using UnityEngine.UI;
 
