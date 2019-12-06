@@ -9,8 +9,13 @@ namespace ClickerGame.Models
     /// <remarks>
     /// 同系統の項目を複数購入可能で、所持数に応じて効果が加算されていく想定。
     /// </remarks>
-    public class MerchandiseItem : Merchandise<ItemMaster>
+    public class MerchandiseItem : Merchandise
     {
+        /// <summary>
+        /// アイテムマスター。
+        /// </summary>
+        public ItemMaster Master { get; }
+
         /// <summary>
         /// 現在の所有数。
         /// </summary>
@@ -27,8 +32,9 @@ namespace ClickerGame.Models
         /// </summary>
         /// <param name="master">商品のマスターデータ。</param>
         /// <param name="price">購入価格。</param>
-        public MerchandiseItem(ItemMaster master, Currency price, int count) : base(master, price)
+        public MerchandiseItem(ItemMaster master, Currency price, int count) : base(master.Name, price)
         {
+            Master = master;
             Count = count;
         }
 

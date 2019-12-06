@@ -7,90 +7,37 @@ using UnityEngine.UI;
 /// <summary>
 /// アイテム情報を表示するビュー。
 /// </summary>
-public class ItemView : MonoBehaviour
+public class ItemView : MerchandiseView<MerchandiseItem>
 {
-    [SerializeField]
-    private Button _button = null;
-
-    [SerializeField]
-    private GameObject _maskObject = null;
-
-    [SerializeField]
-    private Image _image = null;
-
-    [SerializeField]
-    private Text _nameText = null;
-
-    [SerializeField]
-    private Text _priceText = null;
-
     [SerializeField]
     private Text _countText = null;
 
-    /// <summary>
-    /// このビューに表示するアイテム情報。
-    /// </summary>
-    public MerchandiseItem DataSource
-    {
-        get => _item;
-        set
-        {
-            if (_item != null)
-            {
-                _item.PriceChanged -= OnPriceChanged;
-                _item.CountChanged -= OnCounteChanged;
-            }
-            if (value != null)
-            {
-                value.PriceChanged += OnPriceChanged;
-                value.CountChanged += OnCounteChanged;
-            }
+    protected override bool CanPurchase => !Game.Instance.CanPurchase(DataSource.Master);
 
-            _item = value;
-            UpdateDataSource(_item);
-        }
+    protected override void OnInitialize(MerchandiseItem merchandise)
+    {
+        base.OnInitialize(merchandise);
+        merchandise.CountChanged += OnCounteChanged;
+    }
+    protected override void OnRelease(MerchandiseItem merchandise)
+    {
+        base.OnRelease(merchandise);
+        merchandise.CountChanged -= OnCounteChanged;
     }
 
-    private MerchandiseItem _item;
+    private void OnCounteChanged(MerchandiseItem merchandise) => OnDataSourceChanged();
 
-    /// <summary>
-    /// アイテムが選択されたときに呼び出されるイベント。
-    /// </summary>
-    public event Action<MerchandiseItem> ItemSelected;
-
-    private void Update()
+    protected override void OnDataSourceChanged()
     {
-        _maskObject.SetActive(!Game.Instance.CanPurchase(_item.Master));
-    }
+        base.OnDataSourceChanged();
 
-    private void OnPriceChanged(Merchandise<ItemMaster> merchandise) => UpdateDataSource(DataSource);
-    private void OnCounteChanged(MerchandiseItem item) => UpdateDataSource(DataSource);
-
-    private void UpdateDataSource(MerchandiseItem item)
-    {
-        if (item != null)
+        if (DataSource != null)
         {
-            _nameText.text = item.Master.Name;
-            var price = item.Price;
-            _priceText.text =
-                $"{price.Quantity}({price.Type})";
-            _countText.text = item.Count.ToString();
+            _countText.text = DataSource.Count.ToString();
         }
         else
         {
-            _nameText.text = "";
-            _priceText.text = "";
             _countText.text = "";
         }
-    }
-
-    void Start()
-    {
-        var e = new Button.ButtonClickedEvent();
-        e.AddListener(() =>
-        {
-            ItemSelected?.Invoke(_item);
-        });
-        _button.onClick = e;
     }
 }

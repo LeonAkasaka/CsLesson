@@ -9,8 +9,13 @@ using System;
 /// アイテムと異なり同じ強化を複数購入することはできない。
 /// 一度購入すると効果が有効になる。
 /// </remarks>
-public class MerchandiseEnhancer : Merchandise<EnhancerMaster>
+public class MerchandiseEnhancer : Merchandise
 {
+    /// <summary>
+    /// 強化マスター。
+    /// </summary>
+    public EnhancerMaster Master { get; }
+
     /// <summary>
     /// 購入済みかどうか。
     /// </summary>
@@ -26,8 +31,9 @@ public class MerchandiseEnhancer : Merchandise<EnhancerMaster>
     /// </summary>
     /// <param name="master">強化マスター。</param>
     /// <param name="price">購入価格。</param>
-    public MerchandiseEnhancer(EnhancerMaster master, Currency price) : base(master, price)
+    public MerchandiseEnhancer(EnhancerMaster master, Currency price) : base(master.Name, price)
     {
+        Master = master;
         IsPurchased = Game.Instance.EnhancerInventory.HasEnhancer(Master);
     }
 

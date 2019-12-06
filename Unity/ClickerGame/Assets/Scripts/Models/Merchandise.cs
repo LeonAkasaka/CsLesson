@@ -2,16 +2,12 @@
 
 namespace ClickerGame.Models
 {
-    /// <summary>
-    /// 商品の基底クラス。
-    /// </summary>
-    /// <typeparam name="TMaster">商品のマスター型。</typeparam>
-    public abstract class Merchandise<TMaster>
+    public abstract class Merchandise
     {
         /// <summary>
-        /// 商品のマスター。
+        /// 商品名
         /// </summary>
-        public TMaster Master { get; }
+        public string Name { get; }
 
         /// <summary>
         /// 購入価格。
@@ -22,16 +18,16 @@ namespace ClickerGame.Models
         /// <summary>
         /// <see cref="Price" /> が変更されたときに発生するイベント。
         /// </summary>
-        public event Action<Merchandise<TMaster>> PriceChanged;
+        public event Action<Merchandise> PriceChanged;
 
         /// <summary>
         /// コンストラクター。
         /// </summary>
-        /// <param name="master">商品のマスター。。</param>
+        /// <param name="name">商品名。</param>
         /// <param name="price">購入価格。</param>
-        public Merchandise(TMaster master, Currency price)
+        public Merchandise(string name, Currency price)
         {
-            Master = master;
+            Name = name;
             Price = price;
         }
 
