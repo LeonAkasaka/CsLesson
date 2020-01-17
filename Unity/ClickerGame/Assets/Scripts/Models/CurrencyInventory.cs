@@ -13,7 +13,7 @@ namespace ClickerGame.Models
         /// <summary>
         /// 通貨の一覧を取得する。
         /// </summary>
-        public IEnumerable<Currency> CachList => _dictionary.Values;
+        public IReadOnlyCollection<Currency> CachList => _dictionary.Values;
 
         /// <summary>
         /// 通貨に変更があった。
