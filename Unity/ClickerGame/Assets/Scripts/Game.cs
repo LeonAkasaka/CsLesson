@@ -160,9 +160,8 @@ public partial class Game : MonoBehaviour
                 var name = reader.ReadString();
                 var master = ItemMasters.First(x => x.Name == name); // 名前識別気持ち悪い...
 
-                // 個数分繰り返すの無駄
                 var count = reader.ReadInt32();
-                for (var k = 0; k < count; k++) { ItemInventory.Add(master); }
+                ItemInventory.Add(master, count);
             }
 
             var enhancerCount = reader.ReadInt32();

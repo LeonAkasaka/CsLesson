@@ -33,21 +33,22 @@ namespace ClickerGame.Models
         /// アイテムを追加する。
         /// </summary>
         /// <param name="item">追加するアイテム。</param>
-        public void Add(ItemMaster item)
+        /// <param name="count">追加する個数。</param>
+        public void Add(ItemMaster item, int count = 1)
         {
             if (item == null) { throw new ArgumentNullException(nameof(item)); }
 
-            if (_items.TryGetValue(item, out var count))
+            if (_items.TryGetValue(item, out var current))
             {
-                count++;
-                _items[item] = count;
+                var newCount = current + count;
+                _items[item] = newCount;
+                Changed?.Invoke(item, newCount);
             }
             else
             {
-                count = 1;
                 _items.Add(item, count);
+                Changed?.Invoke(item, count);
             }
-            Changed?.Invoke(item, count);
         }
 
         /// <summary>
