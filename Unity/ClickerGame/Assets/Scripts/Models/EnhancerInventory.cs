@@ -12,7 +12,7 @@ namespace ClickerGame.Models
         /// <summary>
         /// 強化一覧。
         /// </summary>
-        public IEnumerable<EnhancerMaster> Enhancers => _enhancers;
+        public IReadOnlyCollection<EnhancerMaster> Enhancers => _enhancers;
         private readonly HashSet<EnhancerMaster> _enhancers = new HashSet<EnhancerMaster>();
 
         /// <summary>

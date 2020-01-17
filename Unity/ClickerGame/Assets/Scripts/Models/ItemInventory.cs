@@ -15,7 +15,7 @@ namespace ClickerGame.Models
         /// <summary>
         /// 所有（数が0以上の）しているアイテム一覧。
         /// </summary>
-        public IEnumerable<ItemMaster> Items => _items.Keys;
+        public IReadOnlyCollection<ItemMaster> Items => _items.Keys;
 
         /// <summary>
         /// アイテムに変更があった。
