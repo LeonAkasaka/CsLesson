@@ -1,6 +1,8 @@
 ﻿using ClickerGame.Masters;
 using ClickerGame.Models;
 using System;
+using System.IO;
+using System.Linq;
 using UnityEngine;
 
 /// <summary>
@@ -99,6 +101,7 @@ public partial class Game : MonoBehaviour
     private void Start()
     {
         LoadMasters();
+        LoadData();
     }
 
     private void Update()
@@ -108,4 +111,69 @@ public partial class Game : MonoBehaviour
             CashInventory.Add(kv.Key, kv.Value * Time.deltaTime);
         }
     }
+
+    private string ApplicationDataPath => Application.persistentDataPath + "/AppData.sav";
+
+    private void SaveData()
+    {
+        using (var writer = new BinaryWriter(File.OpenWrite(ApplicationDataPath)))
+        {
+            writer.Write(CashInventory.CachList.Count);
+            foreach (var c in CashInventory.CachList)
+            {
+                writer.Write((int)c.Type);
+                writer.Write(c.Quantity);
+            }
+
+            writer.Write(ItemInventory.Items.Count);
+            foreach (var item in ItemInventory.Items)
+            {
+                writer.Write(item.Name);
+                writer.Write(ItemInventory.GetCount(item));
+            }
+
+            writer.Write(EnhancerInventory.Enhancers.Count);
+            foreach (var enhancer in EnhancerInventory.Enhancers)
+            {
+                writer.Write(enhancer.Name);
+            }
+        }
+    }
+
+    private void LoadData()
+    {
+        if (!File.Exists(ApplicationDataPath)) { return; }
+
+        using (var reader = new BinaryReader(File.OpenRead(ApplicationDataPath)))
+        {
+            var cashCount = reader.ReadInt32();
+            for(var i = 0; i < cashCount; i++)
+            {
+                var type = reader.ReadInt32();
+                var quantity = reader.ReadDouble();
+                CashInventory.Add((CurrencyType)type, quantity);
+            }
+
+            var itemCount = reader.ReadInt32();
+            for (var i = 0; i < itemCount; i++)
+            {
+                var name = reader.ReadString();
+                var master = ItemMasters.First(x => x.Name == name); // 名前識別気持ち悪い...
+
+                // 個数分繰り返すの無駄
+                var count = reader.ReadInt32();
+                for (var k = 0; k < count; k++) { ItemInventory.Add(master); }
+            }
+
+            var enhancerCount = reader.ReadInt32();
+            for (var i = 0; i < enhancerCount; i++)
+            {
+                var name = reader.ReadString();
+                var master = EnhancerMasters.First(x => x.Name == name); // 名前識別気持ち悪い...
+                EnhancerInventory.Add(master);
+            }
+        }
+    }
+
+    private void OnApplicationQuit() => SaveData();
 }
