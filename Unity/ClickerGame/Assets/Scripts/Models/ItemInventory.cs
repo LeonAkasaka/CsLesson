@@ -5,6 +5,9 @@ using System.Linq;
 
 namespace ClickerGame.Models
 {
+    /// <summary>
+    /// アイテムインベントリー。
+    /// </summary>
     public class ItemInventory
     {
         private readonly Dictionary<ItemMaster, int> _items = new Dictionary<ItemMaster, int>();

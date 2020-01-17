@@ -3,10 +3,16 @@ using System.Collections.Generic;
 
 namespace ClickerGame.Models
 {
+    /// <summary>
+    /// 通貨インベントリー。
+    /// </summary>
     public class CurrencyInventory
     {
         private readonly Dictionary<CurrencyType, Currency> _dictionary = new Dictionary<CurrencyType, Currency>();
 
+        /// <summary>
+        /// 通貨の一覧を取得する。
+        /// </summary>
         public IEnumerable<Currency> CachList => _dictionary.Values;
 
         /// <summary>
